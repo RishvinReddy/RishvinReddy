@@ -5,8 +5,10 @@
     .name { font: bold 45px 'Times New Roman', serif; fill: #1a1a1a; }
     .subtitle { font: italic 18px 'Times New Roman', serif; fill: #546e7a; letter-spacing: 3px; }
   </style>
-  <text x="50%" y="50" text-anchor="middle" class="name">RISHVIN REDDY EROLLA</text>
-  <text x="50%" y="85%" text-anchor="middle" class="subtitle">SOFTWARE ENGINEER • WEB3 ARCHITECT • AI ENTHUSIAST</text>
+  <text x="50%" y="50" text-anchor="middle" class="name">EROLLA RISHVIN REDDY</text>
+  <text x="50%" y="85%" text-anchor="middle" class="subtitle">
+    SOFTWARE ENGINEER • IOT & SECURITY DEVELOPER • AI ENTHUSIAST
+  </text>
 </svg>
 
 <p align="center">
@@ -15,89 +17,114 @@
   <img src="https://img.shields.io/badge/Status-Open_For_Collaboration-success?style=flat-square" />
 </p>
 
+</div>
+
 ---
 
 <div align="left" style="font-family: 'Times New Roman', Times, serif; line-height: 1.6;">
 
 ### 🖋️ Professional Biography
-**I'm a 20-year-old Software Engineer and Web3 Enthusiast from India.** 🇮🇳  
-Currently an undergraduate at **Woxsen University**, I build bridges between low-level hardware (IoT) and high-level decentralized systems. I am passionate about creating software that is not only functional but architecturally elegant.
+
+**I’m an undergraduate Software Engineering student from India 🇮🇳**, currently pursuing my B.Tech at **Woxsen University**.  
+My core strength lies in **bridging hardware-level systems (IoT, Embedded)** with **software-driven intelligence (AI, Security, Web Platforms)**.
+
+I focus on building **deployable, real-world systems**—not just academic demos—combining clean architecture, practical security, and performance-aware design.
 
 ![Custom Banner](https://github.com/user-attachments/assets/88b253ef-f2c2-4c92-94e5-9e34cf98e630)
 
 #### 🎨 Beyond the Code
-* 🛠️ **Architecting:** Modern full-stack applications and smart contracts.
-* 🌐 **Open Source:** Contributing to the future of decentralized tech.
-* 📚 **Knowledge:** Deep diving into literature and technical whitepapers.
+* 🛠️ **System Design:** IoT architectures, network-aware applications, modular backends  
+* 🔐 **Security Focus:** IDS/IPS, cryptography fundamentals, secure communication analysis  
+* 📚 **Research-Driven:** Technical papers, algorithm analysis, and system optimization  
 
 </div>
 
 ---
 
-### 💻 The Multidisciplinary Tech Stack
+### 💻 Multidisciplinary Tech Stack
 
-#### 🚀 Core Languages & Backend Frameworks
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
+#### 🚀 Programming Languages & Backend
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
-#### ⛓️ Web3 & Blockchain Engineering
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Polygon](https://img.shields.io/badge/Polygon-%238247E5.svg?style=for-the-badge&logo=polygon&logoColor=white)
+---
 
-#### 📊 Data Science & Computer Vision
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+#### 🌐 IoT, Embedded & Hardware
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-black?style=for-the-badge&logo=espressif)
+![Tinkercad](https://img.shields.io/badge/Tinkercad-FF6F00?style=for-the-badge)
+
+---
+
+#### 🔐 Cybersecurity & Networking
+![Snort](https://img.shields.io/badge/Snort-CC0000?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Cryptography](https://img.shields.io/badge/Cryptography-AES%20|%20DES%20|%20S--DES-blue?style=for-the-badge)
+
+---
+
+#### 📊 Data, AI & Visualization
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-white.svg?style=for-the-badge&logo=opencv)
+
+---
 
 #### ☁️ Cloud, Deployment & DevOps
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-
-#### 🗄️ Database Management
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-#### 🎨 Creative Design & Visuals
-![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-black?style=for-the-badge&logo=vercel)
+![Netlify](https://img.shields.io/badge/netlify-black?style=for-the-badge&logo=netlify)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-4285F4?style=for-the-badge&logo=google-cloud)
 
 ---
 
-### 🔬 Specialized Research & Projects
+### 🔬 Key Academic & Personal Projects
 
-| Initiative | Domain | Technology |
-| :--- | :--- | :--- |
-| **Skill-Interest Algorithm** | EdTech / Optimization | Python, JS |
-| **IoT Energy Harvesting** | Sustainability / IoT | Arduino, C++ |
-| **Cryptography Studies** | Cybersecurity | DES, AES, S-DES |
+| Project | Domain | Tech Stack |
+|------|------|------|
+| **SecureComm Analyzer** | Network Security | Python, JS, Packet Analysis |
+| **NetShield IDS (Snort-Based)** | IDS / IPS | Snort, Linux, DoS Detection |
+| **Smart Irrigation System** | IoT & Smart Agriculture | Arduino, Sensors, IoT Dashboards |
+| **Smart Dustbin System (SIP)** | IoT Automation | Ultrasonic Sensor, LEDs, Arduino |
 | **Disk Scheduling Visualizer** | Operating Systems | Python, Tkinter |
+| **Text Search Engine** | DSA | Tries, KMP Algorithm |
 
 ---
 
-### 📈 Metrics & Activity
+### 📈 GitHub Metrics
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=RishvinReddy&show_icons=true&theme=transparent&title_color=1a1a1a&text_color=2c3e50&icon_color=0e75b6&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=RishvinReddy&theme=transparent&currStreakNum=1a1a1a&sideLabels=2c3e50&stroke=2c3e50&dates=2c3e50&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=RishvinReddy&show_icons=true&theme=transparent&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=RishvinReddy&theme=transparent&hide_border=true" />
 </p>
 
 ---
 
-### 🐍 Contribution Dynamics
+### 🐍 Contribution Graph
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
 
 ---
 
-### 🤝 Professional Networking
+### 🤝 Connect With Me
 
 <p align="center">
   <a href="https://linkedin.com/in/rishvin-reddy">
-    <img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="mailto:rishvin18@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" />
   </a>
   <a href="https://wa.me/message/J4P3MRT5HOAZH1">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp" />
   </a>
   <a href="https://github.com/RishvinReddy">
-    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github" />
   </a>
 </p>
-
-</div>
