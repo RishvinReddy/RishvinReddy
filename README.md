@@ -151,25 +151,37 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 
 ## ✦ GitHub Metrics
 
-<div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=RishvinReddy&show_icons=true&theme=github_dark&hide_border=true&bg_color=0c1527&title_color=38bdf8&icon_color=1d4ed8&text_color=94a3b8" />
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=RishvinReddy&theme=dark&hide_border=true&background=0c1527&stroke=1d4ed8&ring=38bdf8&fire=38bdf8&currStreakLabel=94a3b8" />
+<!-- 👁️ LIVE METRICS -->
+<img src="https://komarev.com/ghpvc/?username=rishvinreddy&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" />
 
-</div>
+<br/>
 
-<div align="center">
+<!-- ⚡ CONTRIBUTION HEATMAP (RARE FEATURE) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rishvinreddy&theme=tokyonight" width="95%"/>
 
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RishvinReddy&layout=compact&theme=github_dark&hide_border=true&bg_color=0c1527&title_color=38bdf8&text_color=94a3b8&langs_count=8" />
+<br/>
 
-</div>
+<!-- 📊 ADVANCED DASHBOARD -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rishvinreddy&theme=tokyonight" height="160"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rishvinreddy&theme=tokyonight" height="160"/>
 
-<div align="center">
+<br/>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=RishvinReddy&theme=react-dark&hide_border=true&bg_color=0c1527&color=38bdf8&line=1d4ed8&point=38bdf8" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rishvinreddy&theme=tokyonight" height="160"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rishvinreddy&theme=tokyonight&utcOffset=5.5" height="160"/>
 
-</div>
+<br/>
 
+<!-- 🏆 TROPHY SYSTEM -->
+<img src="https://github-profile-trophy.vercel.app/?username=rishvinreddy&theme=algolia&no-frame=true&margin-w=20&margin-h=20&row=1"/>
+
+<br/>
+
+<!-- 🔥 ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rishvinreddy&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+
+<br/>
 -----
 
 ## ✦ Current Focus
