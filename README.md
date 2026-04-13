@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,30:0c1527,65:1d4ed8,100:38bdf8&height=300&section=header&text=EROLLA%20RISHVIN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=IoT%20%7C%20Backend%20%7C%20Cybersecurity%20Developer&descAlignY=58&descSize=18&descColor=94a3b8" width="100%" />
@@ -152,36 +164,42 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 ## ✦ GitHub Metrics
 
 
-<!-- 👁️ LIVE METRICS -->
-<img src="https://komarev.com/ghpvc/?username=rishvinreddy&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" />
+<!-- 🔥 MAIN WRAPPER -->
+<div align="center">
 
-<br/>
+  <!-- 👁️ LIVE METRICS -->
+  <img src="https://komarev.com/ghpvc/?username=rishvinreddy&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" />
 
-<!-- ⚡ CONTRIBUTION HEATMAP (RARE FEATURE) -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rishvinreddy&theme=tokyonight" width="95%"/>
+  <br/><br/>
 
-<br/>
+  <!-- ⚡ CONTRIBUTION HEATMAP -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rishvinreddy&theme=tokyonight" width="95%" />
 
-<!-- 📊 ADVANCED DASHBOARD -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rishvinreddy&theme=tokyonight" height="160"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rishvinreddy&theme=tokyonight" height="160"/>
+  <br/><br/>
 
-<br/>
+  <!-- 📊 DASHBOARD ROW 1 -->
+  <p>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rishvinreddy&theme=tokyonight" height="160"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rishvinreddy&theme=tokyonight" height="160"/>
+  </p>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rishvinreddy&theme=tokyonight" height="160"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rishvinreddy&theme=tokyonight&utcOffset=5.5" height="160"/>
+  <!-- 📊 DASHBOARD ROW 2 -->
+  <p>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rishvinreddy&theme=tokyonight" height="160"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rishvinreddy&theme=tokyonight&utcOffset=5.5" height="160"/>
+  </p>
 
-<br/>
+  <br/>
 
-<!-- 🏆 TROPHY SYSTEM -->
-<img src="https://github-profile-trophy.vercel.app/?username=rishvinreddy&theme=algolia&no-frame=true&margin-w=20&margin-h=20&row=1"/>
+  <!-- 🏆 TROPHIES -->
+  <img src="https://github-profile-trophy.vercel.app/?username=rishvinreddy&theme=algolia&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" />
 
-<br/>
+  <br/><br/>
 
-<!-- 🔥 ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rishvinreddy&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+  <!-- 🔥 ACTIVITY GRAPH -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rishvinreddy&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
 
-<br/>
+</div>
 -----
 
 ## ✦ Current Focus
