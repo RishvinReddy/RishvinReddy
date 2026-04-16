@@ -44,7 +44,7 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 > **I do not just write code. I design systems that solve real problems.**
 
 -----
-
+<div align="center">
 ## ✦ Core Identity
 
 <!--  Core Identity Card -->
@@ -69,17 +69,59 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 
 <br/>
 
-
+</div>
 
 ## ✦ What I Build
 
-|Domain                  |Stack & Tools                                                    |
-|------------------------|-----------------------------------------------------------------|
-|**🔌 IoT & Embedded**    |Arduino, ESP32, sensor integration, Tinkercad, device automation |
-|**🧠 Backend Systems**   |Python, Flask, FastAPI, REST APIs, structured application logic  |
-|**🔐 Cybersecurity**     |Wireshark, Snort, Cryptography, packet analysis, network defense |
-|**📊 DSA & Algorithms**  |Tries, KMP, scheduling algorithms, algorithm visualizers         |
-|**🤖 AI & Smart Systems**|Intelligent automation, TensorFlow, OpenCV, data-driven workflows|
+
+
+
+
+
+<div align="center">
+
+## ⚙️ Tech Stack & Domains
+
+<br/>
+
+<div style="
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 20px;
+  width: 80%;
+  border: 1px solid rgba(255,255,255,0.1);
+">
+
+<table>
+  <tr>
+    <td align="center" width="180"><strong>🔌 IoT & Embedded</strong></td>
+    <td align="center">Arduino • ESP32 • Sensor Integration • Tinkercad • Automation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🧠 Backend Systems</strong></td>
+    <td align="center">Python • Flask • FastAPI • REST APIs</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🔐 Cybersecurity</strong></td>
+    <td align="center">Wireshark • Snort • Cryptography • Network Defense</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>📊 DSA & Algorithms</strong></td>
+    <td align="center">Tries • KMP • Scheduling Algorithms</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🤖 AI & Smart Systems</strong></td>
+    <td align="center">TensorFlow • OpenCV • Intelligent Automation</td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+
+
 
 -----
 
