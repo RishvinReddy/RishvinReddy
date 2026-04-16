@@ -47,15 +47,29 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 
 ## ✦ Core Identity
 
-|             |                                                          |
-|-------------|----------------------------------------------------------|
-|**Name**     |Erolla Rishvin Reddy                                      |
-|**Role**     |IoT · Backend · Cybersecurity Developer                   |
-|**Education**|B.Tech CSE @ Woxsen University, Hyderabad                 |
-|**Focus**    |Secure intelligent systems, automation, scalable logic    |
-|**Mindset**  |Build real solutions. Keep them secure. Make them elegant.|
+<!--  Core Identity Card -->
+<table>
+  <tr>
+    <td align="center" width="150"><strong> Name</strong></td>
+    <td align="center">Erolla Rishvin Reddy</td>
+  </tr>
+  <tr>
+    <td align="center"><strong> Education</strong></td>
+    <td align="center">B.Tech CSE @ Woxsen University, Hyderabad</td>
+  </tr>
+  <tr>
+    <td align="center"><strong> Focus</strong></td>
+    <td align="center">Secure Intelligent Systems • Automation • Scalable Logic</td>
+  </tr>
+  <tr>
+    <td align="center"><strong> Mindset</strong></td>
+    <td align="center"><i>Build real solutions. Keep them secure. Make them elegant.</i></td>
+  </tr>
+</table>
 
------
+<br/>
+
+
 
 ## ✦ What I Build
 
