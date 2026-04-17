@@ -44,9 +44,9 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 > **I do not just write code. I design systems that solve real problems.**
 
 -----
-<div align="center">
-## ✦ Core Identity
 
+## ✦ Core Identity
+<div align="center">
 <!--  Core Identity Card -->
 <table>
   <tr>
@@ -260,12 +260,52 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 
 ## ✦ Current Focus
 
-|Area           |What I’m Working Toward                                            |
-|---------------|-------------------------------------------------------------------|
-|**Security**   |Secure comms, IDS pipelines, cryptography, network analysis        |
-|**Development**|Backend APIs, modular design, clean architecture                   |
-|**Embedded**   |Sensor-driven IoT systems with real-world automation               |
-|**Growth**     |AI integration, scalable systems, better UI/UX, stronger deployment|
+<div align="center">
+
+##  Growth Roadmap
+
+<br/>
+
+<div style="
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 22px;
+  width: 80%;
+  border: 1px solid rgba(255,255,255,0.1);
+">
+
+<table>
+  <tr>
+    <td align="center" width="160"><strong> Security</strong></td>
+    <td align="center">Secure Communications • IDS Pipelines • Cryptography • Network Analysis</td>
+  </tr>
+  <tr>
+    <td align="center"><strong> Development</strong></td>
+    <td align="center">Backend APIs • Modular Design • Clean Architecture</td>
+  </tr>
+  <tr>
+    <td align="center"><strong> Embedded</strong></td>
+    <td align="center">Sensor-Driven IoT Systems • Real-World Automation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong> Growth</strong></td>
+    <td align="center">AI Integration • Scalable Systems • UI/UX • Stronger Deployment</td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- Direction Indicators -->
+<p>
+  <img src="https://img.shields.io/badge/Focus-Security%20First-0f172a?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Architecture-Clean%20%26%20Scalable-1d4ed8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Systems-IoT%20%2B%20AI-0ea5e9?style=flat-square"/>
+</p>
+
+</div>
 
 -----
 
@@ -286,32 +326,169 @@ Code → System → Intelligence → Impact
 
 -----
 
-## ✦ Milestones & Strengths
+<div align="center">
 
-|Strength                |Detail                                                       |
-|------------------------|-------------------------------------------------------------|
-|**Problem Solving**     |Strong DSA foundation — Tries, KMP, scheduling algorithms    |
-|**Project Thinking**    |Builds real-world systems, not just coursework checkboxes    |
-|**Security Mindset**    |Defaults to secure design, not shortcuts                     |
-|**Full-Stack Awareness**|Spans hardware → backend → deployment                        |
-|**Learning Velocity**   |Rapidly advancing in AI, cybersecurity, and scalable software|
+## 🏆 Milestones & Strengths
+
+<br/>
+
+<!-- 🍎 Icon-Based Grid -->
+<table>
+
+<tr>
+
+<td align="center" width="180">
+  <h3>🧩</h3>
+  <strong>Problem Solving</strong><br/>
+  Tries • KMP • Scheduling Algorithms
+</td>
+
+<td align="center" width="180">
+  <h3>🚀</h3>
+  <strong>Project Thinking</strong><br/>
+  Real-world systems, not just coursework
+</td>
+
+<td align="center" width="180">
+  <h3>🔐</h3>
+  <strong>Security Mindset</strong><br/>
+  Secure-by-design approach
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+  <h3>🌐</h3>
+  <strong>Full-Stack Awareness</strong><br/>
+  Hardware → Backend → Deployment
+</td>
+
+<td align="center">
+  <h3>⚡</h3>
+  <strong>Learning Velocity</strong><br/>
+  Rapid growth in AI & Cybersecurity
+</td>
+
+<td align="center">
+  <h3>📈</h3>
+  <strong>Growth Focus</strong><br/>
+  Scalable & intelligent systems
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+<!-- 🧊 Glass Highlight -->
+<div style="
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 14px;
+  padding: 16px;
+  width: 75%;
+  border: 1px solid rgba(255,255,255,0.1);
+">
+
+💡 <strong>Philosophy:</strong> Build systems that are secure, scalable, and solve real-world problems — not just pass requirements.
+
+</div>
+
+<br/>
+
+<!-- 🔥 Credibility Badges -->
+<p>
+  <img src="https://img.shields.io/badge/DSA-Strong%20Foundation-0ea5e9?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Security-Secure%20by%20Design-0f172a?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Systems-End--to--End%20Thinking-1d4ed8?style=flat-square"/>
+</p>
+
+</div>
 
 -----
 
+<div align="center">
+
 <details>
-<summary><b>✦ Currently Studying @ Woxsen University</b></summary>
 
-<br>
+<summary><b>🎓 Currently Studying @ Woxsen University</b></summary>
 
-|Subject                         |Focus                                                |
-|--------------------------------|-----------------------------------------------------|
-|**Computer Networks**           |Routing, switching, VLANs, network architecture      |
-|**Network Security**            |IDS/IPS, cryptography, threat modeling               |
-|**Operating Systems**           |Scheduling, memory management, process control       |
-|**IoT System Design**           |Sensor integration, embedded protocols, smart systems|
-|**Language & Critical Thinking**|Technical communication, rhetoric, analytical writing|
+<br/>
+
+<!-- 🧊 Glass Card -->
+<div style="
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 20px;
+  width: 85%;
+  border: 1px solid rgba(255,255,255,0.1);
+">
+
+<!-- 🍎 Icon Grid Layout -->
+<table>
+
+<tr>
+
+<td align="center" width="200">
+  <h3>🌐</h3>
+  <strong>Computer Networks</strong><br/>
+  Routing • Switching • VLANs • Architecture
+</td>
+
+<td align="center" width="200">
+  <h3>🔐</h3>
+  <strong>Network Security</strong><br/>
+  IDS/IPS • Cryptography • Threat Modeling
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+  <h3>⚙️</h3>
+  <strong>Operating Systems</strong><br/>
+  Scheduling • Memory • Process Control
+</td>
+
+<td align="center">
+  <h3>🔌</h3>
+  <strong>IoT System Design</strong><br/>
+  Sensors • Embedded Protocols • Smart Systems
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" colspan="2">
+  <h3>🧠</h3>
+  <strong>Language & Critical Thinking</strong><br/>
+  Technical Communication • Rhetoric • Analytical Writing
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<br/>
+
+<!-- 🔥 Learning Direction -->
+<p>
+  <img src="https://img.shields.io/badge/Focus-Networks%20%26%20Security-0f172a?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Systems-OS%20%2B%20IoT-1d4ed8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Skill-Analytical%20Thinking-0ea5e9?style=flat-square"/>
+</p>
 
 </details>
+
+</div>
 
 -----
 
