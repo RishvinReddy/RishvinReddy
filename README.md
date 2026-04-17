@@ -203,14 +203,74 @@ My work sits at the intersection of **embedded systems**, **backend engineering*
 
 -----
 
-## ✦ Project Showcase
-
 <div align="center">
 
+## 🚀 Project Showcase
+
+<p>
+  <i>Building secure, scalable, and intelligent systems across IoT, AI, and Cybersecurity</i>
+</p>
+
+<br/>
+
+<!-- 🧩 Featured Projects Grid -->
+<table>
+
+<tr>
+
+<td align="center" width="400">
+  <a href="https://github.com/rishvinreddy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rishvinreddy&repo=Text-Search-Engine&theme=tokyonight&hide_border=true"/>
+  </a>
+</td>
+
+<td align="center" width="400">
+  <a href="https://github.com/rishvinreddy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rishvinreddy&repo=Smart-Irrigation-System&theme=tokyonight&hide_border=true"/>
+  </a>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+  <a href="https://github.com/rishvinreddy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rishvinreddy&repo=ZTNA-System&theme=tokyonight&hide_border=true"/>
+  </a>
+</td>
+
+<td align="center">
+  <a href="https://github.com/rishvinreddy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rishvinreddy&repo=IoT-Dustbin-System&theme=tokyonight&hide_border=true"/>
+  </a>
+</td>
+
+</tr>
+
+</table>
+
+<br/>
+
+<!-- 🧊 Glass Note -->
+<div style="
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 14px;
+  padding: 16px;
+  width: 75%;
+  border: 1px solid rgba(255,255,255,0.1);
+">
+
+💡 <strong>Focus:</strong> Real-world systems — IoT automation, secure architectures, and intelligent backend platforms.
+
+</div>
+
+<br/>
+
+<!-- 🔥 Dynamic Auto-Pins (Optional Section) -->
 <!-- PINNED_REPOS_START -->
-
-<!-- This section is auto-updated by GitHub Actions → .github/workflows/update-pins.yml -->
-
+<!-- Auto-updated via GitHub Actions -->
 <!-- PINNED_REPOS_END -->
 
 </div>
