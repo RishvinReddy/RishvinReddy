@@ -16,15 +16,6 @@
   />
 </picture>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,30:0c1527,65:1d4ed8,100:38bdf8&height=300&section=header&text=EROLLA%20RISHVIN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineering%20%7C%20Cybersecurity%20%7C%20IoT%20%7C%20Blockchain&descAlignY=58&descSize=18&descColor=94a3b8" width="100%" />
-</div>
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=1000&lines=Building+secure%2C+scalable%2C+real-world+systems;Cybersecurity+%7C+IoT+%7C+Blockchain+%7C+Full-Stack;Hardware+to+backend+to+deployment;Engineering+systems+that+solve+real+problems" alt="Typing SVG" />
-</div>
-<br>
-<div align="center">
-</div>
 
 ⸻
 
