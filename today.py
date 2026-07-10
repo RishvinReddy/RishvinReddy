@@ -34,8 +34,19 @@ def fetch_github_data():
 
         stars = sum(repo.get('stargazers_count', 0) for repo in repos_data if not repo.get('fork', False))
 
+        # Commits (search API)
+        commits = 0
+        try:
+            req_commits = urllib.request.Request(f"https://api.github.com/search/commits?q=author:{USERNAME}", headers=headers)
+            with urllib.request.urlopen(req_commits, timeout=10) as response:
+                commits_data = json.loads(response.read().decode())
+                commits = commits_data.get("total_count", 0)
+        except Exception as ce:
+            print(f"Could not fetch commits: {ce}")
+
         stats = {
             "repos": user_data.get("public_repos", 0),
+            "commits": commits,
             "followers": user_data.get("followers", 0),
             "stars": stars
         }
@@ -54,9 +65,9 @@ def fetch_github_data():
                 return json.load(f)
         else:
             print("No cache available. Using N/A.")
-            return {"repos": "N/A", "followers": "N/A", "stars": "N/A"}
+            return {"repos": "N/A", "commits": "N/A", "followers": "N/A", "stars": "N/A"}
 
-def dotted_row(label, value, width=58):
+def dotted_row(label, value, width=65):
     prefix = f"{label}: "
     dots = "." * max(2, width - len(prefix) - len(str(value)))
     return f"{prefix}{dots} {value}"
@@ -69,31 +80,39 @@ def generate_svg(stats, img_b64, is_dark_mode=True):
     accent_blue = "#58a6ff"
     dim_color = "#8b949e" if is_dark_mode else "#6e7781"
 
-    svg_width = 1100
-    svg_height = 480
+    svg_width = 1150
+    svg_height = 540
     
-    profile_lines = [
-        dotted_row("OS", "macOS"),
-        dotted_row("University", "Woxsen University"),
-        dotted_row("Degree", "B.Tech CSE"),
-        dotted_row("Track", "Blockchain, IoT & Cybersecurity"),
-        dotted_row("CGPA", "9.01 / 10"),
-        dotted_row("Graduation", "2028"),
-        dotted_row("IDE", "Antigravity IDE"),
-        dotted_row("Focus.Security", "Cybersecurity, IoT, Blockchain"),
-        dotted_row("Focus.Software", "Full-Stack Development, Automation, Systems"),
-    ]
-    
-    stats_lines = [
-        dotted_row("Repos", stats["repos"]),
-        dotted_row("Stars", stats["stars"]),
-        dotted_row("Followers", stats["followers"]),
-    ]
-    
-    contact_lines = [
-        dotted_row("Portfolio", f"{USERNAME.lower()}.github.io"),
-        dotted_row("GitHub", USERNAME),
-        dotted_row("LinkedIn", "Rishvin Reddy"),
+    lines = [
+        {"type": "header", "label": "rishvin@reddy", "value": "────────────────────────────────────────────────────", "color": accent_green},
+        {"type": "empty"},
+        {"type": "row", "label": "OS", "value": "macOS"},
+        {"type": "row", "label": "Education", "value": "B.Tech CSE"},
+        {"type": "row", "label": "University", "value": "Woxsen University"},
+        {"type": "row", "label": "Track", "value": "Blockchain, IoT & Cybersecurity"},
+        {"type": "row", "label": "CGPA", "value": "9.01 / 10"},
+        {"type": "row", "label": "IDE", "value": "Antigravity IDE"},
+        {"type": "empty"},
+        {"type": "row", "label": "Languages.Programming", "value": "Java, Python, JavaScript, C/C++"},
+        {"type": "row", "label": "Languages.Web", "value": "HTML, CSS, JavaScript"},
+        {"type": "row", "label": "Technologies", "value": "IoT, Cybersecurity, Blockchain"},
+        {"type": "row", "label": "Development", "value": "Full-Stack, Automation, Systems"},
+        {"type": "empty"},
+        {"type": "row", "label": "Focus.Security", "value": "Cybersecurity Engineering"},
+        {"type": "row", "label": "Focus.Hardware", "value": "IoT & Embedded Systems"},
+        {"type": "row", "label": "Focus.Web3", "value": "Blockchain Development"},
+        {"type": "row", "label": "Focus.Software", "value": "Full-Stack Engineering"},
+        {"type": "empty"},
+        {"type": "header", "label": "— Contact", "value": "──────────────────────────────────────────", "color": accent_blue},
+        {"type": "row", "label": "Portfolio", "value": "Rishvin Reddy"},
+        {"type": "row", "label": "GitHub", "value": "RishvinReddy"},
+        {"type": "row", "label": "LinkedIn", "value": "Rishvin Reddy"},
+        {"type": "empty"},
+        {"type": "header", "label": "— GitHub Stats", "value": "─────────────────────────────────────", "color": accent_orange},
+        {"type": "row", "label": "Repos", "value": stats.get("repos", 0)},
+        {"type": "row", "label": "Commits", "value": stats.get("commits", 0)},
+        {"type": "row", "label": "Stars", "value": stats.get("stars", 0)},
+        {"type": "row", "label": "Followers", "value": stats.get("followers", 0)},
     ]
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}">
@@ -101,57 +120,37 @@ def generate_svg(stats, img_b64, is_dark_mode=True):
     <style>
         .text {{ font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: {text_color}; }}
         .dim {{ fill: {dim_color}; }}
-        .green {{ fill: {accent_green}; font-weight: bold; }}
-        .orange {{ fill: {accent_orange}; font-weight: bold; }}
-        .blue {{ fill: {accent_blue}; font-weight: bold; }}
-        .header {{ font-weight: bold; font-size: 14px; fill: {text_color}; }}
     </style>
     
     <defs>
         <clipPath id="avatarClip">
-            <rect x="30" y="40" width="400" height="400" rx="20"/>
+            <rect x="30" y="40" width="460" height="460" rx="20"/>
         </clipPath>
     </defs>
     
     <!-- Image -->
-    <image href="data:image/png;base64,{img_b64}" x="30" y="40" width="400" height="400" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+    <image href="data:image/png;base64,{img_b64}" x="30" y="40" width="460" height="460" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
     
     <!-- Profile Info -->
-    <g transform="translate(560, 40)">
-        <text x="0" y="0" class="text"><tspan class="green">rishvin@reddy</tspan> <tspan class="dim">────────────────────────────────────────</tspan></text>'''
+    <g transform="translate(540, 40)">'''
 
-    for i, line in enumerate(profile_lines):
-        parts = line.split(":", 1)
-        label = parts[0]
-        rest = parts[1].strip()
-        dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
-        dots = rest[:dots_end]
-        value = rest[dots_end:].strip()
-        svg_content += f'\n        <text x="0" y="{(i + 2) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
-
-    svg_content += f'''
-        <text x="0" y="{(len(profile_lines) + 3) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="blue">Contact</tspan> <tspan class="dim">────────────────────────────────────────────</tspan></text>'''
-
-    for i, line in enumerate(contact_lines):
-        parts = line.split(":", 1)
-        label = parts[0]
-        rest = parts[1].strip()
-        dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
-        dots = rest[:dots_end]
-        value = rest[dots_end:].strip()
-        svg_content += f'\n        <text x="0" y="{(len(profile_lines) + 5 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
-
-    svg_content += f'''
-        <text x="0" y="{(len(profile_lines) + len(contact_lines) + 6) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="orange">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────────────</tspan></text>'''
-
-    for i, line in enumerate(stats_lines):
-        parts = line.split(":", 1)
-        label = parts[0]
-        rest = parts[1].strip()
-        dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
-        dots = rest[:dots_end]
-        value = rest[dots_end:].strip()
-        svg_content += f'\n        <text x="0" y="{(len(profile_lines) + len(contact_lines) + 8 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(str(value))}</text>'
+    for i, line_data in enumerate(lines):
+        y_pos = i * 16
+        if line_data["type"] == "header":
+            lbl = html.escape(line_data["label"])
+            val = html.escape(line_data["value"])
+            col = line_data["color"]
+            svg_content += f'\n        <text x="0" y="{y_pos}" class="text" xml:space="preserve"><tspan style="fill: {col}; font-weight: bold;">{lbl}</tspan> <tspan class="dim">{val}</tspan></text>'
+        elif line_data["type"] == "row":
+            raw_str = dotted_row(line_data["label"], line_data["value"])
+            parts = raw_str.split(":", 1)
+            lbl = html.escape(parts[0])
+            rest = parts[1].strip()
+            dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
+            dots = rest[:dots_end]
+            val = html.escape(rest[dots_end:].strip())
+            svg_content += f'\n        <text x="0" y="{y_pos}" class="text" xml:space="preserve">{lbl}: <tspan class="dim">{dots}</tspan> {val}</text>'
+        # empty lines do nothing but advance `i`
 
     svg_content += '''
     </g>
