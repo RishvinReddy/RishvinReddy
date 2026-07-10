@@ -201,6 +201,82 @@ def render_direction(theme):
         
     return svg_base(800, 280, theme, hdr + grid)
 
+
+def render_engineering_profile(theme):
+    c = PALETTES[theme]
+    hdr = f'<text x="32" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["accent_cyan"]}" letter-spacing="2">✦ ENGINEERING PROFILE</text>'
+    
+    data = [
+        ("Name", "Erolla Rishvin Reddy"),
+        ("Degree", "B.Tech in Computer Science and Engineering"),
+        ("Specialization", "Blockchain • IoT • Cybersecurity"),
+        ("University", "Woxsen University"),
+        ("Class", "2028"),
+        ("CGPA", "9.01 / 10"),
+        ("Career Track", "Industry-Oriented Engineering"),
+        ("Core Focus", "Secure Systems • IoT • Blockchain • Full-Stack"),
+        ("Mindset", "Build useful systems. Secure them. Document them. Improve them.")
+    ]
+    
+    grid = ""
+    for i, (k, v) in enumerate(data):
+        y = 75 + i*28
+        grid += f'<text x="32" y="{y}" font-family="{MONO_FONT}" font-size="13" font-weight="700" fill="{c["accent_cyan"]}">{k}</text>'
+        if k == "Mindset":
+            grid += f'<text x="220" y="{y}" font-family="{SYSTEM_FONT}" font-style="italic" font-size="14" fill="{c["text_primary"]}">{v}</text>'
+        else:
+            grid += f'<text x="220" y="{y}" font-family="{MONO_FONT}" font-size="13" fill="{c["text_primary"]}">{v}</text>'
+            
+    return svg_base(800, 340, theme, hdr + grid)
+
+def render_what_i_build(theme):
+    c = PALETTES[theme]
+    hdr = f'<text x="32" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["accent_cyan"]}" letter-spacing="2">✦ WHAT I BUILD</text>'
+    
+    blocks = [
+        ("🔐 Security Systems", ["Network analysis", "Security automation", "Attack-surface workflows", "Authentication systems", "Threat-aware architectures"]),
+        ("🔌 IoT Systems", ["Arduino prototypes", "ESP32 systems", "Sensor integration", "Embedded automation", "Hardware-software workflows"]),
+        ("⛓️ Blockchain Systems", ["Blockchain applications", "Decentralized concepts", "Secure transaction logic", "Applied distributed systems", "Research-driven prototypes"]),
+        ("🌐 Software Systems", ["Backend services", "Web applications", "REST APIs", "Database-backed platforms", "Automation workflows"])
+    ]
+    
+    grid = ""
+    for i, (title, items) in enumerate(blocks):
+        x = 32 + (i % 2) * 380
+        y = 70 + (i // 2) * 140
+        grid += f'<rect x="{x}" y="{y}" width="350" height="120" rx="6" fill="{c["border"]}" fill-opacity="0.1" stroke="{c["border"]}" stroke-width="1"/>'
+        grid += f'<text x="{x+16}" y="{y+24}" font-family="{SYSTEM_FONT}" font-size="14" font-weight="700" fill="{c["text_primary"]}">{title}</text>'
+        
+        for j, item in enumerate(items):
+            grid += f'<text x="{x+16}" y="{y+46 + j*16}" font-family="{MONO_FONT}" font-size="11" fill="{c["text_secondary"]}">> {item}</text>'
+            
+    return svg_base(800, 380, theme, hdr + grid)
+
+def render_technical_domains(theme):
+    c = PALETTES[theme]
+    hdr = f'<text x="32" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["accent_cyan"]}" letter-spacing="2">✦ TECHNICAL DOMAINS</text>'
+    
+    domains = [
+        ("01", "CYBERSECURITY", "Network Security • Traffic Analysis • IDS Concepts • Cryptography"),
+        ("02", "IOT & EMBEDDED", "Arduino • ESP32 • Sensors • Actuators • Embedded Prototyping"),
+        ("03", "BLOCKCHAIN", "Blockchain Fundamentals • Distributed Systems • Decentralized Architecture"),
+        ("04", "FULL-STACK", "HTML • CSS • JavaScript • Backend Logic • APIs • Database Integration"),
+        ("05", "BACKEND SYSTEMS", "Python • Flask • FastAPI • REST APIs • Modular Application Logic"),
+        ("06", "DSA & ALGORITHMS", "Tries • KMP • Search Algorithms • Scheduling Algorithms"),
+        ("07", "INTELLIGENT SYSTEMS", "AI-Assisted Automation • OpenCV • Applied ML Integration")
+    ]
+    
+    grid = ""
+    for i, tr in enumerate(domains):
+        x = 32 + (i % 2) * 380
+        y = 70 + (i // 2) * 65
+        grid += f'<rect x="{x}" y="{y}" width="350" height="50" rx="6" fill="{c["border"]}" fill-opacity="0.1" stroke="{c["border"]}" stroke-width="1"/>'
+        grid += f'<text x="{x+16}" y="{y+20}" font-family="{MONO_FONT}" font-size="12" font-weight="700" fill="{c["accent_cyan"]}">{tr[0]}</text>'
+        grid += f'<text x="{x+42}" y="{y+20}" font-family="{MONO_FONT}" font-size="13" font-weight="700" fill="{c["text_primary"]}" letter-spacing="1">{tr[1]}</text>'
+        grid += f'<text x="{x+16}" y="{y+40}" font-family="{SYSTEM_FONT}" font-size="11" fill="{c["text_secondary"]}">{tr[2]}</text>'
+        
+    return svg_base(800, 350, theme, hdr + grid)
+
 def main():
     os.makedirs(ASSETS_DIR, exist_ok=True)
     
@@ -210,7 +286,10 @@ def main():
         "academic_journey": render_academic,
         "open_to": render_opento,
         "connect": render_connect,
-        "engineering_direction": render_direction
+        "engineering_direction": render_direction,
+        "engineering_profile": render_engineering_profile,
+        "what_i_build": render_what_i_build,
+        "technical_domains": render_technical_domains
     }
     
     for name, func in cards.items():

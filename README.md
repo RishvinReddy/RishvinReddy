@@ -34,135 +34,39 @@
 ## ✦ Engineering Profile
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center" width="180"><strong>Name</strong></td>
-    <td align="center">Erolla Rishvin Reddy</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Degree</strong></td>
-    <td align="center">B.Tech in Computer Science and Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Specialization</strong></td>
-    <td align="center">Blockchain • IoT • Cybersecurity</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>University</strong></td>
-    <td align="center">Woxsen University</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Class</strong></td>
-    <td align="center">2028</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>CGPA</strong></td>
-    <td align="center">9.01 / 10</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Career Track</strong></td>
-    <td align="center">Industry-Oriented Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Core Focus</strong></td>
-    <td align="center">Secure Systems • IoT • Blockchain • Full-Stack Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Engineering Mindset</strong></td>
-    <td align="center"><i>Build useful systems. Secure them. Document them. Improve them.</i></td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_profile_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_profile_light.svg">
+  <img alt="Engineering Profile" src="./assets/cards/engineering_profile_dark.svg" width="100%">
+</picture>
 </div>
+<br/>
 
 ⸻
 
 ## ✦ What I Build
 
 <div align="center">
-<table>
-<tr>
-<td align="center" width="260">
-
-**🔐 Security Systems**<br>
-Network analysis<br>
-Security automation<br>
-Attack-surface workflows<br>
-Authentication systems<br>
-Threat-aware architectures
-
-</td>
-<td align="center" width="260">
-
-**🔌 IoT Systems**<br>
-Arduino prototypes<br>
-ESP32 systems<br>
-Sensor integration<br>
-Embedded automation<br>
-Hardware-software workflows
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-**⛓️ Blockchain Systems**<br>
-Blockchain applications<br>
-Decentralized concepts<br>
-Secure transaction logic<br>
-Applied distributed systems<br>
-Research-driven prototypes
-
-</td>
-<td align="center">
-
-**🌐 Software Systems**<br>
-Backend services<br>
-Web applications<br>
-REST APIs<br>
-Database-backed platforms<br>
-Automation workflows
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/what_i_build_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/what_i_build_light.svg">
+  <img alt="What I Build" src="./assets/cards/what_i_build_dark.svg" width="100%">
+</picture>
 </div>
+<br/>
 
 ⸻
 
 ## ✦ Technical Domains
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center" width="200"><strong>🔐 Cybersecurity</strong></td>
-    <td>Network Security • Traffic Analysis • IDS Concepts • Cryptography • Secure Architecture</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🔌 IoT & Embedded</strong></td>
-    <td>Arduino • ESP32 • Sensors • Actuators • Embedded Prototyping • Automation</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⛓️ Blockchain</strong></td>
-    <td>Blockchain Fundamentals • Distributed Systems • Applied Decentralized Architecture</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🌐 Full-Stack Engineering</strong></td>
-    <td>HTML • CSS • JavaScript • Backend Logic • APIs • Database Integration</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⚙️ Backend Systems</strong></td>
-    <td>Python • Flask • FastAPI • REST APIs • Modular Application Logic</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>📊 DSA & Algorithms</strong></td>
-    <td>Tries • KMP • Search Algorithms • Scheduling Algorithms • Complexity Analysis</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🤖 Intelligent Systems</strong></td>
-    <td>AI-Assisted Automation • OpenCV • Applied ML Integration • Workflow Intelligence</td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/technical_domains_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/technical_domains_light.svg">
+  <img alt="Technical Domains" src="./assets/cards/technical_domains_dark.svg" width="100%">
+</picture>
 </div>
+<br/>
 
 ⸻
 
