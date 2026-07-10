@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C1527" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="560" height="230" rx="16" />
+    </clipPath>
+  </defs>
+  
+  <rect x="0" y="0" width="560" height="230" rx="16" fill="url(#bgGradient)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0" y="0" width="4" height="230" fill="#22C55E" clip-path="url(#cardClip)"/>
+  
+  <g transform="translate(32, 32)">
+    <text x="0" y="10" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#22C55E" letter-spacing="1.5">IOT SYSTEM</text>
+    <text x="0" y="44" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="700" fill="#F8FAFC">Smart-cart-os</text>
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#94A3B8">AI-powered Smart Shopping Cart System with RFID</text>
+      <text x="0" y="24" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#94A3B8">simulation, real-time analytics dashboard, and</text>
+      <text x="0" y="48" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#94A3B8">computer vision-based product identification using...</text>
+    </g>
+    <g transform="translate(0, 168)">
+      <text x="0" y="0" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#94A3B8">TypeScript • Ai • Computer-Vision</text>
+      <text x="496" y="0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500" fill="#94A3B8" text-anchor="end">★ 1   Updated Apr 2026</text>
+    </g>
+  </g>
+</svg>

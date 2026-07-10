@@ -1,0 +1,53 @@
+{
+  "generated_by": "scripts/update_projects.py",
+  "projects": [
+    {
+      "repository": "rishvinreddy.github.io",
+      "slug": "rishvinreddy-github-io",
+      "light": "project-rishvinreddy-github-io-light.svg",
+      "dark": "project-rishvinreddy-github-io-dark.svg"
+    },
+    {
+      "repository": "AI-Security-Guardian",
+      "slug": "ai-security-guardian",
+      "light": "project-ai-security-guardian-light.svg",
+      "dark": "project-ai-security-guardian-dark.svg"
+    },
+    {
+      "repository": "HandMatrix",
+      "slug": "handmatrix",
+      "light": "project-handmatrix-light.svg",
+      "dark": "project-handmatrix-dark.svg"
+    },
+    {
+      "repository": "Smart-cart-os",
+      "slug": "smart-cart-os",
+      "light": "project-smart-cart-os-light.svg",
+      "dark": "project-smart-cart-os-dark.svg"
+    },
+    {
+      "repository": "Biometric-Voting-System",
+      "slug": "biometric-voting-system",
+      "light": "project-biometric-voting-system-light.svg",
+      "dark": "project-biometric-voting-system-dark.svg"
+    },
+    {
+      "repository": "Face-Mesh-Verification-System",
+      "slug": "face-mesh-verification-system",
+      "light": "project-face-mesh-verification-system-light.svg",
+      "dark": "project-face-mesh-verification-system-dark.svg"
+    },
+    {
+      "repository": "Interactive-Disk-Scheduling-Algorithm-Visualizer",
+      "slug": "interactive-disk-scheduling-algorithm-visualizer",
+      "light": "project-interactive-disk-scheduling-algorithm-visualizer-light.svg",
+      "dark": "project-interactive-disk-scheduling-algorithm-visualizer-dark.svg"
+    },
+    {
+      "repository": "Gov-Payroll-System",
+      "slug": "gov-payroll-system",
+      "light": "project-gov-payroll-system-light.svg",
+      "dark": "project-gov-payroll-system-dark.svg"
+    }
+  ]
+}

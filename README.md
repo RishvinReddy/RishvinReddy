@@ -246,18 +246,90 @@ Automation workflows
 
 <!-- STARRED_REPOS_START -->
 ## ✦ Featured Projects
-| Project | Description | Primary Stack | Stars | Updated |
-|---|---|---|---:|---|
-| [rishvinreddy.github.io](https://github.com/RishvinReddy/rishvinreddy.github.io) | Rishvin Reddy's Interactive Developer Portfolio – AI, IoT & Full-Stack Projects \| Smart Systems, Data Structures, and... | HTML • Ai • Arduino | ⭐ 2 | Jul 2026 |
-| [AI-Security-Guardian](https://github.com/RishvinReddy/AI-Security-Guardian) | Enterprise-grade AI-powered Security Operations Center (SOC) built with n8n for attack surface management, vulnerabil... | Python • Ai • Attack-Surface | ⭐ 1 | Jun 2026 |
-| [Smart-cart-os](https://github.com/RishvinReddy/Smart-cart-os) | AI-powered Smart Shopping Cart System with RFID simulation, real-time analytics dashboard, and computer vision-based ... | TypeScript • Ai • Computer-Vision | ⭐ 1 | Apr 2026 |
-| [HandMatrix](https://github.com/RishvinReddy/HandMatrix) | HandMatrix is a real-time AI-based hand gesture control system built using computer vision, enabling touchless intera... | TypeScript • Ai • Automation | ⭐ 1 | Apr 2026 |
-| [Biometric-Voting-System](https://github.com/RishvinReddy/Biometric-Voting-System) | 🚧 Work-in-progress biometric voting system upgraded from R307 sensor to Mantra fingerprint device, focusing on secure... | TypeScript • Authentication • Biometrics | ⭐ 1 | Apr 2026 |
-| [Gov-Payroll-System](https://github.com/RishvinReddy/Gov-Payroll-System) | A scalable Government Payroll Management System built with React, TypeScript, and Vite. Features include employee man... | TypeScript • Docker • Employees-Management | ⭐ 1 | Mar 2026 |
-| [Face-Mesh-Verification-System](https://github.com/RishvinReddy/Face-Mesh-Verification-System) | Real-time biometric AI dashboard — 468-point MediaPipe Face Mesh, blink-gated liveness detection, emotion estimation ... | Python • Biometric • Blink-Detection | ⭐ 1 | Mar 2026 |
-| [Interactive-Disk-Scheduling-Algorithm-Visualizer](https://github.com/RishvinReddy/Interactive-Disk-Scheduling-Algorithm-Visualizer) | Interactive visualization tool for Disk Scheduling Algorithms (FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK) with real-time... | Python • Algorithms • Clook-Scheduling | ⭐ 1 | Mar 2026 |
-<sub>Automatically selected from public, non-fork repositories with at least one star.</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/rishvinreddy.github.io">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvinreddy-github-io-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvinreddy-github-io-light.svg">
+  <img alt="rishvinreddy.github.io - Engineering project" src="./assets/projects/project-rishvinreddy-github-io-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/AI-Security-Guardian">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ai-security-guardian-light.svg">
+  <img alt="AI-Security-Guardian - Engineering project" src="./assets/projects/project-ai-security-guardian-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/HandMatrix">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg">
+  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Smart-cart-os">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-smart-cart-os-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-smart-cart-os-light.svg">
+  <img alt="Smart-cart-os - Engineering project" src="./assets/projects/project-smart-cart-os-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Biometric-Voting-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-biometric-voting-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-biometric-voting-system-light.svg">
+  <img alt="Biometric-Voting-System - Engineering project" src="./assets/projects/project-biometric-voting-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg">
+  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Interactive-Disk-Scheduling-Algorithm-Visualizer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-interactive-disk-scheduling-algorithm-visualizer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-interactive-disk-scheduling-algorithm-visualizer-light.svg">
+  <img alt="Interactive-Disk-Scheduling-Algorit… - Engineering project" src="./assets/projects/project-interactive-disk-scheduling-algorithm-visualizer-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Gov-Payroll-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-gov-payroll-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-gov-payroll-system-light.svg">
+  <img alt="Gov-Payroll-System - Engineering project" src="./assets/projects/project-gov-payroll-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+</table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
