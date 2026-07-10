@@ -73,7 +73,7 @@ def dotted_row(label, value, width=65):
     return f"{prefix}{dots} {value}"
 
 def generate_svg(stats, img_b64, is_dark_mode=True):
-    bg_color = "#0d1117" if is_dark_mode else "#ffffff"
+    bg_color = "#000000" if is_dark_mode else "#ffffff"
     text_color = "#c9d1d9" if is_dark_mode else "#24292f"
     accent_green = "#2ea043"
     accent_orange = "#d29922"

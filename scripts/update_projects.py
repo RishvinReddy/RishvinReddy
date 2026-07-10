@@ -27,16 +27,16 @@ MONO_FONT = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', mo
 
 PALETTES = {
     "dark": {
-        "bg_base": "#020617",
-        "bg_surface": "#0C1527",
-        "surface_elevated": "#111C31",
+        "bg_base": "#000000",
+        "bg_surface": "#000000",
+        "surface_elevated": "#0A0A0A",
         "text_primary": "#F8FAFC",
         "text_secondary": "#94A3B8",
         "border": "#1E293B"
     },
     "light": {
-        "bg_base": "#F8FAFC",
-        "bg_surface": "#FFFFFF",
+        "bg_base": "#000000",
+        "bg_surface": "#000000",
         "surface_elevated": "#F1F5F9",
         "text_primary": "#0F172A",
         "text_secondary": "#475569",
