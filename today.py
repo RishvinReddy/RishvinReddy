@@ -124,7 +124,7 @@ def generate_svg(stats, img_b64, is_dark_mode=True):
     
     <defs>
         <clipPath id="avatarClip">
-            <rect x="30" y="40" width="460" height="460" rx="20"/>
+            <circle cx="260" cy="270" r="230"/>
         </clipPath>
     </defs>
     
