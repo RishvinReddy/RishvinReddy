@@ -61,9 +61,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/technical_domains_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/technical_domains_light.svg">
-  <img alt="Technical Domains" src="./assets/cards/technical_domains_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/technical_domains_dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/technical_domains_light.svg?v=1">
+  <img alt="Technical Domains" src="./assets/cards/technical_domains_dark.svg?v=1" width="100%">
 </picture>
 </div>
 <br/>
