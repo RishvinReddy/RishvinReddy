@@ -164,7 +164,7 @@ def render_connect(theme):
     endpoints = [
         ("GITHUB", "github.com/RishvinReddy"),
         ("LINKEDIN", "linkedin.com/in/rishvin-reddy"),
-        ("EMAIL", "rishvin18@gmail.com")
+        ("EMAIL", "rishvinreddy@gmail.com")
     ]
     
     end_svg = ""
