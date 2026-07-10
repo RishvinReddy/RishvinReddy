@@ -43,59 +43,12 @@
 
 ## ✦ Tech Stack
 
-**Programming Languages**
-
 <div align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-</div>
-
-**Backend & Web Engineering**
-
-<div align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-</div>
-
-**IoT & Embedded Systems**
-
-<div align="center">
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-<img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-<img src="https://img.shields.io/badge/Tinkercad-FF6F00?style=for-the-badge&logo=autodesk&logoColor=white" alt="Tinkercad" />
-</div>
-
-**Cybersecurity & Networking**
-
-<div align="center">
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
-<img src="https://img.shields.io/badge/Snort-CC0000?style=for-the-badge&logoColor=white" alt="Snort" />
-<img src="https://img.shields.io/badge/Cryptography-0f172a?style=for-the-badge&logo=keybase&logoColor=38bdf8" alt="Cryptography" />
-</div>
-
-**Data, Computer Vision & Intelligent Systems**
-
-<div align="center">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-</div>
-
-**Databases, Automation & Infrastructure**
-
-<div align="center">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</div>
-
-**Development & Deployment**
-
-<div align="center">
-<img src="https://img.shields.io/badge/GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/tech_stack_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/tech_stack_light.svg">
+  <img alt="Rishvin Reddy Engineering Tech Stack" src="./assets/cards/tech_stack_dark.svg" width="100%">
+</picture>
 </div>
 
 ⸻
