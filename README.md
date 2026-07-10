@@ -1,19 +1,5 @@
 # Rishvin Reddy
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./dark_mode.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./light_mode.svg"
-  />
-  <img
-    src="./dark_mode.svg"
-    alt="Rishvin Reddy — Engineering Profile"
-    width="100%"
-  />
-</picture>
+
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,30:0c1527,65:1d4ed8,100:38bdf8&height=300&section=header&text=EROLLA%20RISHVIN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineering%20%7C%20Cybersecurity%20%7C%20IoT%20%7C%20Blockchain&descAlignY=58&descSize=18&descColor=94a3b8" width="100%" />
@@ -29,156 +15,22 @@
 
 ## ✦ About Me
 
-I’m **Erolla Rishvin Reddy**, a B.Tech Computer Science and Engineering student at Woxsen University, Class of 2028, specializing in Blockchain, Internet of Things, and Cybersecurity.
-
-I build across the hardware-to-software spectrum — from embedded prototypes and sensor-driven automation to backend systems, web applications, security-focused tooling, and blockchain-oriented projects.
-
-My primary engineering interests are:
-
-* Cybersecurity & Network Security
-* Internet of Things & Embedded Systems
-* Blockchain Engineering
-* Full-Stack & Backend Development
-* Automation & Intelligent Systems
-* Algorithms, Systems Design & Applied Software Engineering
-
-I focus on projects that move beyond isolated demos toward usable, documented, security-aware systems built around real problems.
-
-> **I do not just write code. I design systems that solve real problems.**
-
-⸻
-
-## ✦ Engineering Profile
-
 <div align="center">
-<table>
-  <tr>
-    <td align="center" width="180"><strong>Name</strong></td>
-    <td align="center">Erolla Rishvin Reddy</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Degree</strong></td>
-    <td align="center">B.Tech in Computer Science and Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Specialization</strong></td>
-    <td align="center">Blockchain • IoT • Cybersecurity</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>University</strong></td>
-    <td align="center">Woxsen University</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Class</strong></td>
-    <td align="center">2028</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>CGPA</strong></td>
-    <td align="center">9.01 / 10</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Career Track</strong></td>
-    <td align="center">Industry-Oriented Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Core Focus</strong></td>
-    <td align="center">Secure Systems • IoT • Blockchain • Full-Stack Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Engineering Mindset</strong></td>
-    <td align="center"><i>Build useful systems. Secure them. Document them. Improve them.</i></td>
-  </tr>
-</table>
-</div>
-
-⸻
-
-## ✦ What I Build
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="260">
-
-**🔐 Security Systems**<br>
-Network analysis<br>
-Security automation<br>
-Attack-surface workflows<br>
-Authentication systems<br>
-Threat-aware architectures
-
-</td>
-<td align="center" width="260">
-
-**🔌 IoT Systems**<br>
-Arduino prototypes<br>
-ESP32 systems<br>
-Sensor integration<br>
-Embedded automation<br>
-Hardware-software workflows
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-**⛓️ Blockchain Systems**<br>
-Blockchain applications<br>
-Decentralized concepts<br>
-Secure transaction logic<br>
-Applied distributed systems<br>
-Research-driven prototypes
-
-</td>
-<td align="center">
-
-**🌐 Software Systems**<br>
-Backend services<br>
-Web applications<br>
-REST APIs<br>
-Database-backed platforms<br>
-Automation workflows
-
-</td>
-</tr>
-</table>
-</div>
-
-⸻
-
-## ✦ Technical Domains
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="200"><strong>🔐 Cybersecurity</strong></td>
-    <td>Network Security • Traffic Analysis • IDS Concepts • Cryptography • Secure Architecture</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🔌 IoT & Embedded</strong></td>
-    <td>Arduino • ESP32 • Sensors • Actuators • Embedded Prototyping • Automation</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⛓️ Blockchain</strong></td>
-    <td>Blockchain Fundamentals • Distributed Systems • Applied Decentralized Architecture</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🌐 Full-Stack Engineering</strong></td>
-    <td>HTML • CSS • JavaScript • Backend Logic • APIs • Database Integration</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⚙️ Backend Systems</strong></td>
-    <td>Python • Flask • FastAPI • REST APIs • Modular Application Logic</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>📊 DSA & Algorithms</strong></td>
-    <td>Tries • KMP • Search Algorithms • Scheduling Algorithms • Complexity Analysis</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🤖 Intelligent Systems</strong></td>
-    <td>AI-Assisted Automation • OpenCV • Applied ML Integration • Workflow Intelligence</td>
-  </tr>
-</table>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./dark_mode.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./light_mode.svg"
+  />
+  <img
+    src="./dark_mode.svg"
+    alt="Rishvin Reddy — Engineering Profile"
+    width="100%"
+  />
+</picture>
 </div>
 
 ⸻
