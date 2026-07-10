@@ -258,11 +258,11 @@ def render_technical_domains(theme):
     
     domains = [
         ("01", "CYBERSECURITY", "Network Security • Traffic Analysis • IDS Concepts • Cryptography"),
-        ("02", "IOT & EMBEDDED", "Arduino • ESP32 • Sensors • Actuators • Embedded Prototyping"),
+        ("02", "IOT &amp; EMBEDDED", "Arduino • ESP32 • Sensors • Actuators • Embedded Prototyping"),
         ("03", "BLOCKCHAIN", "Blockchain Fundamentals • Distributed Systems • Decentralized Architecture"),
         ("04", "FULL-STACK", "HTML • CSS • JavaScript • Backend Logic • APIs • Database Integration"),
         ("05", "BACKEND SYSTEMS", "Python • Flask • FastAPI • REST APIs • Modular Application Logic"),
-        ("06", "DSA & ALGORITHMS", "Tries • KMP • Search Algorithms • Scheduling Algorithms"),
+        ("06", "DSA &amp; ALGORITHMS", "Tries • KMP • Search Algorithms • Scheduling Algorithms"),
         ("07", "INTELLIGENT SYSTEMS", "AI-Assisted Automation • OpenCV • Applied ML Integration")
     ]
     
