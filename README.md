@@ -1,5 +1,20 @@
 # Rishvin Reddy
 
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./dark_mode.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./light_mode.svg"
+  />
+  <img
+    src="./dark_mode.svg"
+    alt="Rishvin Reddy — Engineering Profile"
+    width="100%"
+  />
+</picture>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,30:0c1527,65:1d4ed8,100:38bdf8&height=300&section=header&text=EROLLA%20RISHVIN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineering%20%7C%20Cybersecurity%20%7C%20IoT%20%7C%20Blockchain&descAlignY=58&descSize=18&descColor=94a3b8" width="100%" />
