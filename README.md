@@ -19,15 +19,15 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./dark_mode.svg"
+    srcset="./assets/about_dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="./light_mode.svg"
+    srcset="./assets/about_light.svg"
   />
   <img
-    src="./dark_mode.svg"
-    alt="Rishvin Reddy — Engineering Profile"
+    src="./assets/about_light.svg"
+    alt="About Erolla Rishvin Reddy"
     width="100%"
   />
 </picture>

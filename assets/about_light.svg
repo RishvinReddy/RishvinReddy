@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="0" y="0" width="800" height="680" rx="16" fill="url(#bgGradient)" stroke="#CBD5E1" stroke-width="1.5"/>
+  
+  <!-- Subtle Grid Pattern Background -->
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  
+  <g transform="translate(48, 40)">
+    <!-- Header -->
+    <text x="0" y="0" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#0284C7" letter-spacing="2">✦ ABOUT ME</text>
+    <text x="704" y="0" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#475569" letter-spacing="2" text-anchor="end">01 / PROFILE</text>
+    
+    <!-- Title Section -->
+    <text x="0" y="56" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#0F172A" letter-spacing="1">EROLLA RISHVIN REDDY</text>
+    <text x="0" y="86" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#475569">Computer Science &amp; Engineering · Class of 2028</text>
+    <text x="0" y="110" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="500" fill="#475569">Woxsen University</text>
+    
+    <!-- Specialization -->
+    <text x="0" y="160" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#475569" letter-spacing="1.5">SPECIALIZATION</text>
+    
+    <g transform="translate(0, 180)">
+      <rect x="0" y="0" width="126" height="30" rx="4" fill="#1D4ED8" fill-opacity="0.1" stroke="#0284C7" stroke-width="1"/>
+      <text x="63" y="19" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#0284C7" text-anchor="middle">BLOCKCHAIN</text>
+      
+      <rect x="142" y="0" width="70" height="30" rx="4" fill="#1D4ED8" fill-opacity="0.1" stroke="#0284C7" stroke-width="1"/>
+      <text x="177" y="19" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#0284C7" text-anchor="middle">IoT</text>
+      
+      <rect x="228" y="0" width="150" height="30" rx="4" fill="#1D4ED8" fill-opacity="0.1" stroke="#0284C7" stroke-width="1"/>
+      <text x="303" y="19" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#0284C7" text-anchor="middle">CYBERSECURITY</text>
+    </g>
+    
+    <!-- Bio Paragraph -->
+    <text x="0" y="250" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="400" fill="#475569" line-height="1.5">I build across the hardware-to-software spectrum —</text>
+    <text x="0" y="274" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="400" fill="#475569" line-height="1.5">from embedded prototypes and sensor-driven automation</text>
+    <text x="0" y="298" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="400" fill="#475569" line-height="1.5">to backend systems, web applications, security tooling,</text>
+    <text x="0" y="322" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="400" fill="#475569" line-height="1.5">and blockchain-oriented engineering projects.</text>
+    
+    <!-- Engineering Focus -->
+    <text x="0" y="380" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#475569" letter-spacing="1.5">ENGINEERING FOCUS</text>
+    
+        <rect x="0" y="400" width="330" height="70" rx="8" fill="transparent" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="16" y="430" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#0284C7">01</text>
+        <text x="46" y="430" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#0F172A">CYBERSECURITY</text>
+        <text x="46" y="452" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="400" fill="#475569">Network Security &amp; Tools</text>
+        
+    
+        <rect x="350" y="400" width="330" height="70" rx="8" fill="transparent" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="366" y="430" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#0284C7">02</text>
+        <text x="396" y="430" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#0F172A">IoT / EMBEDDED</text>
+        <text x="396" y="452" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="400" fill="#475569">Sensor Systems &amp; Automation</text>
+        
+    
+        <rect x="0" y="486" width="330" height="70" rx="8" fill="transparent" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="16" y="516" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#0284C7">03</text>
+        <text x="46" y="516" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#0F172A">BLOCKCHAIN</text>
+        <text x="46" y="538" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="400" fill="#475569">Applied Decentralized Systems</text>
+        
+    
+        <rect x="350" y="486" width="330" height="70" rx="8" fill="transparent" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="366" y="516" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#0284C7">04</text>
+        <text x="396" y="516" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#0F172A">FULL-STACK</text>
+        <text x="396" y="538" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="400" fill="#475569">Backend Systems &amp; APIs</text>
+        
+    
+    <!-- Quote -->
+    <line x1="0" y1="586" x2="4" y2="586" stroke="#0284C7" stroke-width="4" />
+    <line x1="2" y1="586" x2="2" y2="626" stroke="#0284C7" stroke-width="4" />
+    
+    <text x="24" y="602" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="400" font-style="italic" fill="#0F172A">"I do not just write code.</text>
+    <text x="24" y="626" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="700" font-style="italic" fill="#0F172A">I design systems that solve real problems."</text>
+  </g>
+</svg>
