@@ -2,6 +2,7 @@ import urllib.request
 import json
 import os
 import html
+import base64
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -9,34 +10,13 @@ USERNAME = "RishvinReddy"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 CACHE_FILE = Path("cache/stats.json")
 
-ASCII_PORTRAIT = """
-                  @@@@@@@@@@@@@@@@@@@@@@@@                  
-              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@              
-           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           
-        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        
-      @@@@@@@@@@@@@@@@@@@%+=-::.:=*@@@@@@@@@@@@@@@@@@@      
-     @@@@@@@@@@@@@@@@@%-             +@@@@@@@@@@@@@@@@@     
-   @@@@@@@@@@@@@@@@@@+                 %@@@@@@@@@@@@@@@@@   
-  @@@@@@@@@@@@@@@@@@%      .:::::.     #@@@@@@@@@@@@@@@@@@  
- @@@@@@@@@@@@@@@@@@@+  -=*%@%%%%%%*+:  @@@@@@@@@@@@@@@@@@@@ 
- @@@@@@@@@@@@@@@@@@@@.=%%###%%@%*+++*-=@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@**%*=-:=%@=::-=***@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@#*%%##**%%**#%%#+*@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@+*%@@@%*%+*%@%*-@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@:+@%-=+#+::**:+@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@:-*#@@*##*= -@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@%=: .:.     :-*@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@#=  %#=:....-**  :*%@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@%*-      :#@@@%%%%#-       -+#@@@@@@@@@@@@@@
- @@@@@@@@@@%*-.           -+%@@@@%=             .-#@@@@@@@@ 
-  @@@@@@@#                 .*%@@@#                 -@@@@@@  
-   @@@@@+                    -*#*                    +@@@   
-     @@+                      .-                      +     
-      @                                                     
-                                                            
-                                                            
-                                                            
-"""
+def get_base64_image(image_path="icon.png"):
+    try:
+        with open(image_path, "rb") as f:
+            return base64.b64encode(f.read()).decode('utf-8')
+    except Exception as e:
+        print(f"Error loading image: {e}")
+        return ""
 
 def fetch_github_data():
     headers = {"Accept": "application/vnd.github.v3+json"}
@@ -81,7 +61,7 @@ def dotted_row(label, value, width=58):
     dots = "." * max(2, width - len(prefix) - len(str(value)))
     return f"{prefix}{dots} {value}"
 
-def generate_svg(stats, is_dark_mode=True):
+def generate_svg(stats, img_b64, is_dark_mode=True):
     bg_color = "#0d1117" if is_dark_mode else "#ffffff"
     text_color = "#c9d1d9" if is_dark_mode else "#24292f"
     accent_green = "#2ea043"
@@ -89,11 +69,8 @@ def generate_svg(stats, is_dark_mode=True):
     accent_blue = "#58a6ff"
     dim_color = "#8b949e" if is_dark_mode else "#6e7781"
 
-    # SVG Template structure
     svg_width = 1100
     svg_height = 480
-
-    ascii_lines = ASCII_PORTRAIT.strip('\n').split('\n')
     
     profile_lines = [
         dotted_row("OS", "macOS"),
@@ -129,21 +106,19 @@ def generate_svg(stats, is_dark_mode=True):
         .blue {{ fill: {accent_blue}; font-weight: bold; }}
         .header {{ font-weight: bold; font-size: 14px; fill: {text_color}; }}
     </style>
-    <g transform="translate(30, 40)">
-        <!-- ASCII Portrait -->
-        <g class="text dim">'''
-
-    for i, line in enumerate(ascii_lines):
-        line = line.replace(' ', '&#160;')
-        line = line.replace('<', '&lt;').replace('>', '&gt;')
-        svg_content += f'\n            <text x="0" y="{i * 16}" xml:space="preserve">{line}</text>'
-
-    svg_content += f'''
-        </g>
-        
-        <!-- Profile Info -->
-        <g transform="translate(560, 0)">
-            <text x="0" y="0" class="text"><tspan class="green">rishvin@reddy</tspan> <tspan class="dim">────────────────────────────────────────</tspan></text>'''
+    
+    <defs>
+        <clipPath id="avatarClip">
+            <rect x="30" y="40" width="400" height="400" rx="20"/>
+        </clipPath>
+    </defs>
+    
+    <!-- Image -->
+    <image href="data:image/png;base64,{img_b64}" x="30" y="40" width="400" height="400" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+    
+    <!-- Profile Info -->
+    <g transform="translate(560, 40)">
+        <text x="0" y="0" class="text"><tspan class="green">rishvin@reddy</tspan> <tspan class="dim">────────────────────────────────────────</tspan></text>'''
 
     for i, line in enumerate(profile_lines):
         parts = line.split(":", 1)
@@ -152,10 +127,10 @@ def generate_svg(stats, is_dark_mode=True):
         dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
         dots = rest[:dots_end]
         value = rest[dots_end:].strip()
-        svg_content += f'\n            <text x="0" y="{(i + 2) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
+        svg_content += f'\n        <text x="0" y="{(i + 2) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
 
     svg_content += f'''
-            <text x="0" y="{(len(profile_lines) + 3) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="blue">Contact</tspan> <tspan class="dim">────────────────────────────────────────────</tspan></text>'''
+        <text x="0" y="{(len(profile_lines) + 3) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="blue">Contact</tspan> <tspan class="dim">────────────────────────────────────────────</tspan></text>'''
 
     for i, line in enumerate(contact_lines):
         parts = line.split(":", 1)
@@ -164,10 +139,10 @@ def generate_svg(stats, is_dark_mode=True):
         dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
         dots = rest[:dots_end]
         value = rest[dots_end:].strip()
-        svg_content += f'\n            <text x="0" y="{(len(profile_lines) + 5 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
+        svg_content += f'\n        <text x="0" y="{(len(profile_lines) + 5 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
 
     svg_content += f'''
-            <text x="0" y="{(len(profile_lines) + len(contact_lines) + 6) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="orange">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────────────</tspan></text>'''
+        <text x="0" y="{(len(profile_lines) + len(contact_lines) + 6) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="orange">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────────────</tspan></text>'''
 
     for i, line in enumerate(stats_lines):
         parts = line.split(":", 1)
@@ -176,19 +151,19 @@ def generate_svg(stats, is_dark_mode=True):
         dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
         dots = rest[:dots_end]
         value = rest[dots_end:].strip()
-        svg_content += f'\n            <text x="0" y="{(len(profile_lines) + len(contact_lines) + 8 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(str(value))}</text>'
+        svg_content += f'\n        <text x="0" y="{(len(profile_lines) + len(contact_lines) + 8 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(str(value))}</text>'
 
     svg_content += '''
-        </g>
     </g>
 </svg>'''
     return svg_content
 
 if __name__ == "__main__":
     stats = fetch_github_data()
+    img_b64 = get_base64_image("icon.png")
     
     with open("dark_mode.svg", "w", encoding="utf-8") as f:
-        f.write(generate_svg(stats, is_dark_mode=True))
+        f.write(generate_svg(stats, img_b64, is_dark_mode=True))
         
     with open("light_mode.svg", "w", encoding="utf-8") as f:
-        f.write(generate_svg(stats, is_dark_mode=False))
+        f.write(generate_svg(stats, img_b64, is_dark_mode=False))
