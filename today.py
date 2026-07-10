@@ -10,28 +10,32 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 CACHE_FILE = Path("cache/stats.json")
 
 ASCII_PORTRAIT = """
-             @@@@@@@@@@@@@@@@@@@             
-          @@@@@@@@@@@@@@@@@@@@@@@@@          
-       %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%       
-     %@@@@@@@@@@@@@@%####%@@@@@@@%@@@@%%     
-    @@@@@@@@@@@@@#=.     .-+@@@@@@@%%@@@%    
-   @@@@@@@@@@@@@=           :#@@@@@@%%%@@%   
-  @@@@@@@@@@@@@*    .....    =@@@@@@@%%%@@%  
- @@@@@@@@@@@@@@- :=*#####*+. *@@@@@@@%%%%%@% 
-@@@@@@@@@@@@@@@*-****###++++-%@@@@@@@@%%%%@%%
-@@@@@@@@@@@@@@@@+#+=-+#+-==*+%@@@@@@@%%%%%%@%
-@@@@@@@@@@@@@@@@**#####**##*+@@@@@@@@%%%%%%%%
-@@@@@@@@@@@@@@@@#=#%#++==*#=*@@@@@@@@@%%%%%%%
-@@@@@@@@@@@@@@@@@*=*+***++=-@@@@@@@@@@%%%%%%%
-@@@@@@@@@@@@@@@@@@=:=+---:.+@@@@@@@@@@%%%%%%%
-@@@@@@@@@@@@@@@@#.:*-:...=*..*%@@@@@@%%%%%%%%
-@@@@@@@@@@@@#+:    +#%####=    .-+#%@@@%%%%%%
- @@@@@@@#=:        :=#%%%+.         :=%@%%%% 
-  @@@@%:            .+###-            .#@%%  
-   @@@:               -*-               +@   
-    @=                 .                     
-                                             
-                                             
+                  @@@@@@@@@@@@@@@@@@@@@@@@                  
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@              
+           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        
+      @@@@@@@@@@@@@@@@@@@%+=-::.:=*@@@@@@@@@@@@@@@@@@@      
+     @@@@@@@@@@@@@@@@@%-             +@@@@@@@@@@@@@@@@@     
+   @@@@@@@@@@@@@@@@@@+                 %@@@@@@@@@@@@@@@@@   
+  @@@@@@@@@@@@@@@@@@%      .:::::.     #@@@@@@@@@@@@@@@@@@  
+ @@@@@@@@@@@@@@@@@@@+  -=*%@%%%%%%*+:  @@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@.=%%###%%@%*+++*-=@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@**%*=-:=%@=::-=***@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@#*%%##**%%**#%%#+*@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@+*%@@@%*%+*%@%*-@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@:+@%-=+#+::**:+@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@:-*#@@*##*= -@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@%=: .:.     :-*@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@#=  %#=:....-**  :*%@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@%*-      :#@@@%%%%#-       -+#@@@@@@@@@@@@@@
+ @@@@@@@@@@%*-.           -+%@@@@%=             .-#@@@@@@@@ 
+  @@@@@@@#                 .*%@@@#                 -@@@@@@  
+   @@@@@+                    -*#*                    +@@@   
+     @@+                      .-                      +     
+      @                                                     
+                                                            
+                                                            
+                                                            
 """
 
 def fetch_github_data():
@@ -40,12 +44,10 @@ def fetch_github_data():
         headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
     try:
-        # Fetch user data
         req_user = urllib.request.Request(f"https://api.github.com/users/{USERNAME}", headers=headers)
         with urllib.request.urlopen(req_user, timeout=10) as response:
             user_data = json.loads(response.read().decode())
         
-        # Fetch repos data (for stars)
         req_repos = urllib.request.Request(f"https://api.github.com/users/{USERNAME}/repos?per_page=100", headers=headers)
         with urllib.request.urlopen(req_repos, timeout=10) as response:
             repos_data = json.loads(response.read().decode())
@@ -58,7 +60,6 @@ def fetch_github_data():
             "stars": stars
         }
         
-        # Write to cache
         CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
         with open(CACHE_FILE, "w") as f:
             json.dump(stats, f)
@@ -67,7 +68,6 @@ def fetch_github_data():
     
     except Exception as e:
         print(f"Error fetching from GitHub API: {e}")
-        # Try to load from cache
         if CACHE_FILE.exists():
             print("Loading from cache.")
             with open(CACHE_FILE, "r") as f:
@@ -82,7 +82,6 @@ def dotted_row(label, value, width=58):
     return f"{prefix}{dots} {value}"
 
 def generate_svg(stats, is_dark_mode=True):
-    # Colors
     bg_color = "#0d1117" if is_dark_mode else "#ffffff"
     text_color = "#c9d1d9" if is_dark_mode else "#24292f"
     accent_green = "#2ea043"
@@ -91,13 +90,11 @@ def generate_svg(stats, is_dark_mode=True):
     dim_color = "#8b949e" if is_dark_mode else "#6e7781"
 
     # SVG Template structure
-    svg_width = 850
-    svg_height = 420
+    svg_width = 1100
+    svg_height = 480
 
-    # Process ASCII art
     ascii_lines = ASCII_PORTRAIT.strip('\n').split('\n')
     
-    # Profile Info
     profile_lines = [
         dotted_row("OS", "macOS"),
         dotted_row("University", "Woxsen University"),
@@ -145,7 +142,7 @@ def generate_svg(stats, is_dark_mode=True):
         </g>
         
         <!-- Profile Info -->
-        <g transform="translate(390, 0)">
+        <g transform="translate(560, 0)">
             <text x="0" y="0" class="text"><tspan class="green">rishvin@reddy</tspan> <tspan class="dim">────────────────────────────────────────</tspan></text>'''
 
     for i, line in enumerate(profile_lines):
