@@ -95,7 +95,7 @@ def generate_svg(stats, is_dark_mode=True):
     svg_height = 420
 
     # Process ASCII art
-    ascii_lines = ASCII_PORTRAIT.strip('\\n').split('\\n')
+    ascii_lines = ASCII_PORTRAIT.strip('\n').split('\n')
     
     # Profile Info
     profile_lines = [
@@ -139,7 +139,7 @@ def generate_svg(stats, is_dark_mode=True):
     for i, line in enumerate(ascii_lines):
         line = line.replace(' ', '&#160;')
         line = line.replace('<', '&lt;').replace('>', '&gt;')
-        svg_content += f'\\n            <text x="0" y="{i * 16}" xml:space="preserve">{line}</text>'
+        svg_content += f'\n            <text x="0" y="{i * 16}" xml:space="preserve">{line}</text>'
 
     svg_content += f'''
         </g>
@@ -155,7 +155,7 @@ def generate_svg(stats, is_dark_mode=True):
         dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
         dots = rest[:dots_end]
         value = rest[dots_end:].strip()
-        svg_content += f'\\n            <text x="0" y="{(i + 2) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
+        svg_content += f'\n            <text x="0" y="{(i + 2) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
 
     svg_content += f'''
             <text x="0" y="{(len(profile_lines) + 3) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="blue">Contact</tspan> <tspan class="dim">────────────────────────────────────────────</tspan></text>'''
@@ -167,7 +167,7 @@ def generate_svg(stats, is_dark_mode=True):
         dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
         dots = rest[:dots_end]
         value = rest[dots_end:].strip()
-        svg_content += f'\\n            <text x="0" y="{(len(profile_lines) + 5 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
+        svg_content += f'\n            <text x="0" y="{(len(profile_lines) + 5 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(value)}</text>'
 
     svg_content += f'''
             <text x="0" y="{(len(profile_lines) + len(contact_lines) + 6) * 16}" class="text"><tspan class="dim">—</tspan> <tspan class="orange">GitHub Stats</tspan> <tspan class="dim">───────────────────────────────────────</tspan></text>'''
@@ -179,7 +179,7 @@ def generate_svg(stats, is_dark_mode=True):
         dots_end = next((j for j, char in enumerate(rest) if char != '.'), 0)
         dots = rest[:dots_end]
         value = rest[dots_end:].strip()
-        svg_content += f'\\n            <text x="0" y="{(len(profile_lines) + len(contact_lines) + 8 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(str(value))}</text>'
+        svg_content += f'\n            <text x="0" y="{(len(profile_lines) + len(contact_lines) + 8 + i) * 16}" class="text" xml:space="preserve">{html.escape(label)}: <tspan class="dim">{dots}</tspan> {html.escape(str(value))}</text>'
 
     svg_content += '''
         </g>
