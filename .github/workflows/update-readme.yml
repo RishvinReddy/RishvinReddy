@@ -2,7 +2,7 @@ name: Update Profile Metrics
 
 on:
   schedule:
-    - cron: "30 1 * * *"
+    - cron: "30 23 * * *"
   workflow_dispatch:
   push:
     branches:
