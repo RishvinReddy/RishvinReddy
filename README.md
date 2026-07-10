@@ -14,3 +14,452 @@
     width="100%"
   />
 </picture>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,30:0c1527,65:1d4ed8,100:38bdf8&height=300&section=header&text=EROLLA%20RISHVIN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Engineering%20%7C%20Cybersecurity%20%7C%20IoT%20%7C%20Blockchain&descAlignY=58&descSize=18&descColor=94a3b8" width="100%" />
+</div>
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=1000&lines=Building+secure%2C+scalable%2C+real-world+systems;Cybersecurity+%7C+IoT+%7C+Blockchain+%7C+Full-Stack;Hardware+to+backend+to+deployment;Engineering+systems+that+solve+real+problems" alt="Typing SVG" />
+</div>
+<br>
+<div align="center">
+</div>
+
+⸻
+
+## ✦ About Me
+
+I’m **Erolla Rishvin Reddy**, a B.Tech Computer Science and Engineering student at Woxsen University, Class of 2028, specializing in Blockchain, Internet of Things, and Cybersecurity.
+
+I build across the hardware-to-software spectrum — from embedded prototypes and sensor-driven automation to backend systems, web applications, security-focused tooling, and blockchain-oriented projects.
+
+My primary engineering interests are:
+
+* Cybersecurity & Network Security
+* Internet of Things & Embedded Systems
+* Blockchain Engineering
+* Full-Stack & Backend Development
+* Automation & Intelligent Systems
+* Algorithms, Systems Design & Applied Software Engineering
+
+I focus on projects that move beyond isolated demos toward usable, documented, security-aware systems built around real problems.
+
+> **I do not just write code. I design systems that solve real problems.**
+
+⸻
+
+## ✦ Engineering Profile
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="180"><strong>Name</strong></td>
+    <td align="center">Erolla Rishvin Reddy</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Degree</strong></td>
+    <td align="center">B.Tech in Computer Science and Engineering</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Specialization</strong></td>
+    <td align="center">Blockchain • IoT • Cybersecurity</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>University</strong></td>
+    <td align="center">Woxsen University</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Class</strong></td>
+    <td align="center">2028</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>CGPA</strong></td>
+    <td align="center">9.01 / 10</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Career Track</strong></td>
+    <td align="center">Industry-Oriented Engineering</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Core Focus</strong></td>
+    <td align="center">Secure Systems • IoT • Blockchain • Full-Stack Engineering</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Engineering Mindset</strong></td>
+    <td align="center"><i>Build useful systems. Secure them. Document them. Improve them.</i></td>
+  </tr>
+</table>
+</div>
+
+⸻
+
+## ✦ What I Build
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="260">
+
+**🔐 Security Systems**<br>
+Network analysis<br>
+Security automation<br>
+Attack-surface workflows<br>
+Authentication systems<br>
+Threat-aware architectures
+
+</td>
+<td align="center" width="260">
+
+**🔌 IoT Systems**<br>
+Arduino prototypes<br>
+ESP32 systems<br>
+Sensor integration<br>
+Embedded automation<br>
+Hardware-software workflows
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+**⛓️ Blockchain Systems**<br>
+Blockchain applications<br>
+Decentralized concepts<br>
+Secure transaction logic<br>
+Applied distributed systems<br>
+Research-driven prototypes
+
+</td>
+<td align="center">
+
+**🌐 Software Systems**<br>
+Backend services<br>
+Web applications<br>
+REST APIs<br>
+Database-backed platforms<br>
+Automation workflows
+
+</td>
+</tr>
+</table>
+</div>
+
+⸻
+
+## ✦ Technical Domains
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="200"><strong>🔐 Cybersecurity</strong></td>
+    <td>Network Security • Traffic Analysis • IDS Concepts • Cryptography • Secure Architecture</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🔌 IoT & Embedded</strong></td>
+    <td>Arduino • ESP32 • Sensors • Actuators • Embedded Prototyping • Automation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>⛓️ Blockchain</strong></td>
+    <td>Blockchain Fundamentals • Distributed Systems • Applied Decentralized Architecture</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🌐 Full-Stack Engineering</strong></td>
+    <td>HTML • CSS • JavaScript • Backend Logic • APIs • Database Integration</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>⚙️ Backend Systems</strong></td>
+    <td>Python • Flask • FastAPI • REST APIs • Modular Application Logic</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>📊 DSA & Algorithms</strong></td>
+    <td>Tries • KMP • Search Algorithms • Scheduling Algorithms • Complexity Analysis</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🤖 Intelligent Systems</strong></td>
+    <td>AI-Assisted Automation • OpenCV • Applied ML Integration • Workflow Intelligence</td>
+  </tr>
+</table>
+</div>
+
+⸻
+
+## ✦ Tech Stack
+
+**Programming Languages**
+
+<div align="center">
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+</div>
+
+**Backend & Web Engineering**
+
+<div align="center">
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+</div>
+
+**IoT & Embedded Systems**
+
+<div align="center">
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![Tinkercad](https://img.shields.io/badge/Tinkercad-FF6F00?style=for-the-badge&logo=autodesk&logoColor=white)
+</div>
+
+**Cybersecurity & Networking**
+
+<div align="center">
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Snort](https://img.shields.io/badge/Snort-CC0000?style=for-the-badge&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-0f172a?style=for-the-badge&logo=keybase&logoColor=38bdf8)
+</div>
+
+**Data, Computer Vision & Intelligent Systems**
+
+<div align="center">
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+</div>
+
+**Databases, Automation & Infrastructure**
+
+<div align="center">
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+</div>
+
+**Development & Deployment**
+
+<div align="center">
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+</div>
+
+⸻
+
+## ✦ Selected Engineering Projects
+
+<table>
+<tr>
+<th>Project</th>
+<th>Domain</th>
+<th>Engineering Focus</th>
+</tr>
+<tr>
+<td><strong>Smart Irrigation System</strong></td>
+<td>IoT & Embedded Systems</td>
+<td>Sensor-driven irrigation, environmental monitoring, automated control logic</td>
+</tr>
+<tr>
+<td><strong>Biometric Voting System</strong></td>
+<td>Cybersecurity & Biometrics</td>
+<td>Fingerprint-based voter authentication and secure voting workflow</td>
+</tr>
+<tr>
+<td><strong>Text Search Engine</strong></td>
+<td>DSA & Algorithms</td>
+<td>Trie-based indexing, KMP pattern matching, search-performance analysis</td>
+</tr>
+<tr>
+<td><strong>AI Security Guardian</strong></td>
+<td>Security Automation</td>
+<td>Attack-surface analysis, vulnerability workflows, threat-intelligence orchestration</td>
+</tr>
+<tr>
+<td><strong>FinVault</strong></td>
+<td>Desktop Software & Finance</td>
+<td>Privacy-focused personal finance architecture with local-first data storage</td>
+</tr>
+<tr>
+<td><strong>GitHub-to-LinkedIn Automation</strong></td>
+<td>Developer Automation</td>
+<td>n8n workflow for transforming repository activity into structured publishing workflows</td>
+</tr>
+<tr>
+<td><strong>Smart Dustbin System</strong></td>
+<td>IoT Automation</td>
+<td>Ultrasonic sensing and real-time waste-level monitoring</td>
+</tr>
+<tr>
+<td><strong>Disk Scheduling Visualizer</strong></td>
+<td>Operating Systems</td>
+<td>Interactive visualization of disk scheduling algorithms</td>
+</tr>
+<tr>
+<td><strong>Outing Management System</strong></td>
+<td>Web Engineering</td>
+<td>Structured student outing workflows, records, forms, and administrative operations</td>
+</tr>
+</table>
+
+⸻
+
+## ✦ Current Engineering Direction
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="180"><strong>🔐 Security</strong></td>
+    <td>Secure Architectures • Network Analysis • Security Automation • Threat-Aware Systems</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🔌 Embedded</strong></td>
+    <td>Sensor-Driven IoT • ESP32 Systems • Hardware-Software Integration</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>⛓️ Blockchain</strong></td>
+    <td>Applied Blockchain Engineering • Distributed Systems • Secure Digital Infrastructure</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🌐 Software</strong></td>
+    <td>Backend APIs • Full-Stack Systems • Modular Architecture • Database Engineering</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>⚙️ Automation</strong></td>
+    <td>n8n Workflows • Engineering Automation • AI-Assisted Systems</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>📈 Growth</strong></td>
+    <td>Production Engineering • Deployment • Open Source • Research • Industry Readiness</td>
+  </tr>
+</table>
+</div>
+
+⸻
+
+## ✦ GitHub Analytics
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=RishvinReddy&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishvinReddy&theme=tokyonight" width="95%" alt="GitHub Profile Details" />
+<p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RishvinReddy&theme=tokyonight" height="160" alt="GitHub Stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RishvinReddy&theme=tokyonight" height="160" alt="Repositories per Language"/>
+</p>
+<p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RishvinReddy&theme=tokyonight" height="160" alt="Most Commit Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RishvinReddy&theme=tokyonight&utcOffset=5.5" height="160" alt="Productive Time"/>
+</p>
+<br/>
+<img src="https://github-profile-trophy.vercel.app/?username=RishvinReddy&theme=algolia&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" alt="GitHub Trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RishvinReddy&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="GitHub Activity Graph"/>
+</div>
+
+⸻
+
+## ✦ Engineering Philosophy
+
+Problem → Architecture → Implementation → Security → Validation → Impact
+```
+┌───────────────────────────────────────────────────────────────┐
+│  Code is an implementation detail.                            │
+│  Architecture determines how the system evolves.              │
+│  Security determines how the system survives.                 │
+│  Validation determines whether the system can be trusted.     │
+│  Impact determines whether the system was worth building.     │
+└───────────────────────────────────────────────────────────────┘
+```
+
+My approach is grounded in a few principles:
+
+* Build for real use cases, not only demonstrations
+* Treat security as an architectural concern
+* Prefer clear systems over unnecessary complexity
+* Connect hardware, software, data, and infrastructure intentionally
+* Document engineering decisions
+* Measure progress through shipped work
+
+⸻
+
+## ✦ Founder & Builder
+
+<div align="center">
+
+### Rishvin Labs
+
+I am building Rishvin Labs as an engineering-focused initiative working across:
+
+Software Systems • Web Engineering • IoT Solutions • Cybersecurity • Automation
+
+The objective is to turn technical capability into useful, secure, and scalable systems for real-world applications.
+
+</div>
+
+⸻
+
+## ✦ Academic Journey
+
+<div align="center">
+<details>
+<summary><b>🎓 B.Tech CSE @ Woxsen University — Class of 2028</b></summary>
+<br/>
+<table>
+<tr>
+<td align="center" width="220">
+<strong>🔐 Cybersecurity</strong><br/>
+Network Security • Cryptography • Threat Analysis • Secure Systems
+</td>
+<td align="center" width="220">
+<strong>🔌 Internet of Things</strong><br/>
+Sensors • Embedded Systems • Automation • Connected Devices
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>⛓️ Blockchain</strong><br/>
+Distributed Systems • Blockchain Architecture • Applied Decentralization
+</td>
+<td align="center">
+<strong>📊 Algorithms</strong><br/>
+Data Structures • Search • Pattern Matching • Complexity
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>⚙️ Systems</strong><br/>
+Operating Systems • Databases • Computer Networks
+</td>
+<td align="center">
+<strong>🌐 Software Engineering</strong><br/>
+Web Systems • Backend Logic • APIs • Deployment
+</td>
+</tr>
+</table>
+<br/>
+</details>
+</div>
+
+⸻
+
+## ✦ Open To
+
+I am particularly interested in opportunities involving:
+
+Cybersecurity • IoT • Blockchain • Backend Engineering • Full-Stack Systems • Engineering Automation
+
+⸻
+
+## ✦ Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishvin-reddy)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishvin18@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/J4P3MRT5HOAZH1)
+[![GitHub](https://img.shields.io/badge/GitHub-0c1527?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishvinReddy)
+
+</div>
+
+⸻
+
+<div align="center">
+
+Secure systems. Scalable engineering. Real-world impact.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,40:1d4ed8,80:0c1527,100:020617&height=160&section=footer&text=Build.+Secure.+Scale.+Impact.&fontSize=18&fontColor=94a3b8&fontAlignY=65&animation=fadeIn" width="100%" />
+</div>
