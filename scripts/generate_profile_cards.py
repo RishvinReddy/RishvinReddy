@@ -175,6 +175,32 @@ def render_connect(theme):
         
     return svg_base(800, 160, theme, hdr + name + focus + end_svg)
 
+def render_direction(theme):
+    c = PALETTES[theme]
+    hdr = f'<text x="32" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["accent_cyan"]}" letter-spacing="2">✦ ENGINEERING DIRECTION</text>'
+    
+    tracks = [
+        ("01", "SECURITY", "Secure Architectures • Network Analysis • Security Automation"),
+        ("02", "EMBEDDED", "Sensor-Driven IoT • ESP32 Systems • Hardware-Software Integration"),
+        ("03", "BLOCKCHAIN", "Applied Blockchain Engineering • Distributed Systems"),
+        ("04", "SOFTWARE", "Backend APIs • Full-Stack Systems • Modular Architecture"),
+        ("05", "AUTOMATION", "n8n Workflows • Engineering Automation • AI-Assisted Systems"),
+        ("06", "GROWTH", "Production Engineering • Deployment • Open Source • Research")
+    ]
+    
+    grid = ""
+    for i, tr in enumerate(tracks):
+        x = 32 + (i % 2) * 380
+        y = 70 + (i // 2) * 65
+        grid += f"""
+        <rect x="{x}" y="{y}" width="350" height="50" rx="6" fill="{c["border"]}" fill-opacity="0.1" stroke="{c["border"]}" stroke-width="1"/>
+        <text x="{x+16}" y="{y+20}" font-family="{MONO_FONT}" font-size="12" font-weight="700" fill="{c["accent_cyan"]}">{tr[0]}</text>
+        <text x="{x+42}" y="{y+20}" font-family="{MONO_FONT}" font-size="13" font-weight="700" fill="{c["text_primary"]}" letter-spacing="1">{tr[1]}</text>
+        <text x="{x+16}" y="{y+40}" font-family="{SYSTEM_FONT}" font-size="11" fill="{c["text_secondary"]}">{tr[2]}</text>
+        """
+        
+    return svg_base(800, 280, theme, hdr + grid)
+
 def main():
     os.makedirs(ASSETS_DIR, exist_ok=True)
     
@@ -183,7 +209,8 @@ def main():
         "rishvin_labs": render_labs,
         "academic_journey": render_academic,
         "open_to": render_opento,
-        "connect": render_connect
+        "connect": render_connect,
+        "engineering_direction": render_direction
     }
     
     for name, func in cards.items():

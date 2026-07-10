@@ -154,32 +154,11 @@
 ## ✦ Current Engineering Direction
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center" width="180"><strong>🔐 Security</strong></td>
-    <td>Secure Architectures • Network Analysis • Security Automation • Threat-Aware Systems</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🔌 Embedded</strong></td>
-    <td>Sensor-Driven IoT • ESP32 Systems • Hardware-Software Integration</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⛓️ Blockchain</strong></td>
-    <td>Applied Blockchain Engineering • Distributed Systems • Secure Digital Infrastructure</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🌐 Software</strong></td>
-    <td>Backend APIs • Full-Stack Systems • Modular Architecture • Database Engineering</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⚙️ Automation</strong></td>
-    <td>n8n Workflows • Engineering Automation • AI-Assisted Systems</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>📈 Growth</strong></td>
-    <td>Production Engineering • Deployment • Open Source • Research • Industry Readiness</td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_direction_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_direction_light.svg">
+  <img alt="Engineering Direction" src="./assets/cards/engineering_direction_dark.svg" width="100%">
+</picture>
 </div>
 
 ⸻
