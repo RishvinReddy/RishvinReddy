@@ -250,106 +250,66 @@
 
 ## ✦ Engineering Philosophy
 
-Problem → Architecture → Implementation → Security → Validation → Impact
-```
-┌───────────────────────────────────────────────────────────────┐
-│  Code is an implementation detail.                            │
-│  Architecture determines how the system evolves.              │
-│  Security determines how the system survives.                 │
-│  Validation determines whether the system can be trusted.     │
-│  Impact determines whether the system was worth building.     │
-└───────────────────────────────────────────────────────────────┘
-```
-
-My approach is grounded in a few principles:
-
-* Build for real use cases, not only demonstrations
-* Treat security as an architectural concern
-* Prefer clear systems over unnecessary complexity
-* Connect hardware, software, data, and infrastructure intentionally
-* Document engineering decisions
-* Measure progress through shipped work
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_philosophy_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_philosophy_light.svg">
+  <img alt="Engineering Philosophy" src="./assets/cards/engineering_philosophy_dark.svg" width="100%">
+</picture>
+</div>
+<br/>
 
 ⸻
 
 ## ✦ Founder & Builder
 
 <div align="center">
-
-### Rishvin Labs
-
-I am building Rishvin Labs as an engineering-focused initiative working across:
-
-Software Systems • Web Engineering • IoT Solutions • Cybersecurity • Automation
-
-The objective is to turn technical capability into useful, secure, and scalable systems for real-world applications.
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/rishvin_labs_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/rishvin_labs_light.svg">
+  <img alt="Rishvin Labs — Founder and Builder" src="./assets/cards/rishvin_labs_dark.svg" width="100%">
+</picture>
 </div>
+<br/>
 
 ⸻
 
 ## ✦ Academic Journey
 
 <div align="center">
-<details>
-<summary><b>🎓 B.Tech CSE @ Woxsen University — Class of 2028</b></summary>
-<br/>
-<table>
-<tr>
-<td align="center" width="220">
-<strong>🔐 Cybersecurity</strong><br/>
-Network Security • Cryptography • Threat Analysis • Secure Systems
-</td>
-<td align="center" width="220">
-<strong>🔌 Internet of Things</strong><br/>
-Sensors • Embedded Systems • Automation • Connected Devices
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>⛓️ Blockchain</strong><br/>
-Distributed Systems • Blockchain Architecture • Applied Decentralization
-</td>
-<td align="center">
-<strong>📊 Algorithms</strong><br/>
-Data Structures • Search • Pattern Matching • Complexity
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>⚙️ Systems</strong><br/>
-Operating Systems • Databases • Computer Networks
-</td>
-<td align="center">
-<strong>🌐 Software Engineering</strong><br/>
-Web Systems • Backend Logic • APIs • Deployment
-</td>
-</tr>
-</table>
-<br/>
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/academic_journey_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/academic_journey_light.svg">
+  <img alt="Academic Journey — B.Tech CSE at Woxsen University" src="./assets/cards/academic_journey_dark.svg" width="100%">
+</picture>
 </div>
+<br/>
 
 ⸻
 
 ## ✦ Open To
 
-I am particularly interested in opportunities involving:
-
-Cybersecurity • IoT • Blockchain • Backend Engineering • Full-Stack Systems • Engineering Automation
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/open_to_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/open_to_light.svg">
+  <img alt="Open to Engineering Opportunities" src="./assets/cards/open_to_dark.svg" width="100%">
+</picture>
+</div>
+<br/>
 
 ⸻
 
 ## ✦ Connect
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishvin-reddy)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishvin18@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/J4P3MRT5HOAZH1)
-[![GitHub](https://img.shields.io/badge/GitHub-0c1527?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishvinReddy)
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/connect_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/connect_light.svg">
+  <img alt="Connect with Rishvin Reddy" src="./assets/cards/connect_dark.svg" width="100%">
+</picture>
 </div>
+<br/>
 
 ⸻
 
@@ -357,5 +317,6 @@ Cybersecurity • IoT • Blockchain • Backend Engineering • Full-Stack Syst
 
 Secure systems. Scalable engineering. Real-world impact.
 
+<br/>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,40:1d4ed8,80:0c1527,100:020617&height=160&section=footer&text=Build.+Secure.+Scale.+Impact.&fontSize=18&fontColor=94a3b8&fontAlignY=65&animation=fadeIn" width="100%" />
 </div>

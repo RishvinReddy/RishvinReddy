@@ -30,12 +30,14 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run Profile Generator
+      - name: Update README with Dynamic Content
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: RishvinReddy
+          GITHUB_USERNAME: ${{ github.repository_owner }}
         run: |
           python today.py
+          python scripts/generate_about.py
+          python scripts/generate_profile_cards.py
           python scripts/update_projects.py
 
       - name: Commit changes

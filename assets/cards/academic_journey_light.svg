@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="280" rx="12" fill="url(#bg)" stroke="#CBD5E1" stroke-width="1.5"/>
+  <line x1="0" y1="50" x2="800" y2="50" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  <text x="32" y="32" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#1D4ED8" letter-spacing="2">✦ ACADEMIC JOURNEY</text>
+    <rect x="520" y="16" width="248" height="26" rx="4" fill="#CBD5E1" fill-opacity="0.3"/>
+    <text x="644" y="33" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0F172A" text-anchor="middle">B.TECH CSE · CLASS OF 2028</text>
+    
+        <rect x="32" y="75" width="230" height="60" rx="6" fill="transparent" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="44" y="101" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#0284C7">01</text>
+        <text x="68" y="101" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#0F172A">CYBERSECURITY</text>
+        <text x="44" y="121" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Network Security, Cryptography</text>
+        
+        <rect x="277" y="75" width="230" height="60" rx="6" fill="transparent" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="289" y="101" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#0284C7">02</text>
+        <text x="313" y="101" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#0F172A">INTERNET OF THINGS</text>
+        <text x="289" y="121" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Sensors, Embedded Systems</text>
+        
+        <rect x="522" y="75" width="230" height="60" rx="6" fill="transparent" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="534" y="101" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#0284C7">03</text>
+        <text x="558" y="101" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#0F172A">BLOCKCHAIN</text>
+        <text x="534" y="121" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Distributed Systems, Architecture</text>
+        
+        <rect x="32" y="150" width="230" height="60" rx="6" fill="transparent" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="44" y="176" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#0284C7">04</text>
+        <text x="68" y="176" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#0F172A">ALGORITHMS</text>
+        <text x="44" y="196" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Data Structures, Complexity</text>
+        
+        <rect x="277" y="150" width="230" height="60" rx="6" fill="transparent" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="289" y="176" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#0284C7">05</text>
+        <text x="313" y="176" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#0F172A">SYSTEMS</text>
+        <text x="289" y="196" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Operating Systems, Databases</text>
+        
+        <rect x="522" y="150" width="230" height="60" rx="6" fill="transparent" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="534" y="176" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#0284C7">06</text>
+        <text x="558" y="176" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#0F172A">SOFTWARE ENG</text>
+        <text x="534" y="196" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Web Systems, APIs, Deployment</text>
+        <text x="32" y="250" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#1D4ED8">CGPA: 9.01 / 10</text>
+</svg>
