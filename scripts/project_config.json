@@ -1,0 +1,19 @@
+{
+  "max_projects": 8,
+  "minimum_stars": 1,
+  "blacklist": [],
+  "priority_repositories": [],
+  "excluded_topics": [],
+  "excluded_name_patterns": [
+    ".github",
+    "dotfiles",
+    "sandbox",
+    "scratch",
+    "test",
+    "testing",
+    "demo",
+    "playground",
+    "template",
+    "templates"
+  ]
+}

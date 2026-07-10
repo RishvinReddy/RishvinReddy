@@ -244,58 +244,8 @@ Automation workflows
 
 ## ✦ Selected Engineering Projects
 
-<table>
-<tr>
-<th>Project</th>
-<th>Domain</th>
-<th>Engineering Focus</th>
-</tr>
-<tr>
-<td><strong>Smart Irrigation System</strong></td>
-<td>IoT & Embedded Systems</td>
-<td>Sensor-driven irrigation, environmental monitoring, automated control logic</td>
-</tr>
-<tr>
-<td><strong>Biometric Voting System</strong></td>
-<td>Cybersecurity & Biometrics</td>
-<td>Fingerprint-based voter authentication and secure voting workflow</td>
-</tr>
-<tr>
-<td><strong>Text Search Engine</strong></td>
-<td>DSA & Algorithms</td>
-<td>Trie-based indexing, KMP pattern matching, search-performance analysis</td>
-</tr>
-<tr>
-<td><strong>AI Security Guardian</strong></td>
-<td>Security Automation</td>
-<td>Attack-surface analysis, vulnerability workflows, threat-intelligence orchestration</td>
-</tr>
-<tr>
-<td><strong>FinVault</strong></td>
-<td>Desktop Software & Finance</td>
-<td>Privacy-focused personal finance architecture with local-first data storage</td>
-</tr>
-<tr>
-<td><strong>GitHub-to-LinkedIn Automation</strong></td>
-<td>Developer Automation</td>
-<td>n8n workflow for transforming repository activity into structured publishing workflows</td>
-</tr>
-<tr>
-<td><strong>Smart Dustbin System</strong></td>
-<td>IoT Automation</td>
-<td>Ultrasonic sensing and real-time waste-level monitoring</td>
-</tr>
-<tr>
-<td><strong>Disk Scheduling Visualizer</strong></td>
-<td>Operating Systems</td>
-<td>Interactive visualization of disk scheduling algorithms</td>
-</tr>
-<tr>
-<td><strong>Outing Management System</strong></td>
-<td>Web Engineering</td>
-<td>Structured student outing workflows, records, forms, and administrative operations</td>
-</tr>
-</table>
+<!-- STARRED_REPOS_START -->
+<!-- STARRED_REPOS_END -->
 
 ⸻
 

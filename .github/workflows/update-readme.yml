@@ -2,8 +2,18 @@ name: Update Profile Metrics
 
 on:
   schedule:
-    - cron: "35 0 * * *"
+    - cron: "30 1 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-readme.yml"
+
+concurrency:
+  group: profile-readme-update
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -23,11 +33,14 @@ jobs:
       - name: Run Profile Generator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python today.py
+          GITHUB_USERNAME: RishvinReddy
+        run: |
+          python today.py
+          python scripts/update_projects.py
 
       - name: Commit changes
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add dark_mode.svg light_mode.svg cache/stats.json
-          git diff --cached --quiet || (git commit -m "chore: refresh profile metrics" && git push)
+          git add README.md dark_mode.svg light_mode.svg cache/stats.json
+          git diff --cached --quiet || (git commit -m "chore(profile): refresh dynamic README content" && git push)
