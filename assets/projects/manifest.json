@@ -14,6 +14,18 @@
       "dark": "project-ai-security-guardian-dark.svg"
     },
     {
+      "repository": "n8n-ai-github-code-to-linkedin-publisher",
+      "slug": "n8n-ai-github-code-to-linkedin-publisher",
+      "light": "project-n8n-ai-github-code-to-linkedin-publisher-light.svg",
+      "dark": "project-n8n-ai-github-code-to-linkedin-publisher-dark.svg"
+    },
+    {
+      "repository": "rishvin-labs",
+      "slug": "rishvin-labs",
+      "light": "project-rishvin-labs-light.svg",
+      "dark": "project-rishvin-labs-dark.svg"
+    },
+    {
       "repository": "HandMatrix",
       "slug": "handmatrix",
       "light": "project-handmatrix-light.svg",
@@ -36,18 +48,6 @@
       "slug": "face-mesh-verification-system",
       "light": "project-face-mesh-verification-system-light.svg",
       "dark": "project-face-mesh-verification-system-dark.svg"
-    },
-    {
-      "repository": "Interactive-Disk-Scheduling-Algorithm-Visualizer",
-      "slug": "interactive-disk-scheduling-algorithm-visualizer",
-      "light": "project-interactive-disk-scheduling-algorithm-visualizer-light.svg",
-      "dark": "project-interactive-disk-scheduling-algorithm-visualizer-dark.svg"
-    },
-    {
-      "repository": "Gov-Payroll-System",
-      "slug": "gov-payroll-system",
-      "light": "project-gov-payroll-system-light.svg",
-      "dark": "project-gov-payroll-system-dark.svg"
     }
   ]
 }

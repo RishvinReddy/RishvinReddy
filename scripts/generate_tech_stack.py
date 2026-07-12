@@ -3,27 +3,37 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS_DIR = os.path.join(BASE_DIR, "assets", "cards")
 
-SYSTEM_FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-MONO_FONT = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace"
+SYSTEM_FONT = "'Times New Roman', Times, serif"
+MONO_FONT = "'Courier New', Courier, monospace"
+SERIF_FONT = "Georgia, serif"
+
 
 PALETTES = {
     "dark": {
-        "bg_base": "#000000",
-        "bg_surface": "#000000",
-        "border": "#1E293B",
-        "text_primary": "#F8FAFC",
-        "text_secondary": "#94A3B8",
-        "accent_cyan": "#38BDF8",
-        "accent_blue": "#1D4ED8",
+        "bg_base": "#0B0C10",
+        "bg_surface": "#15171E",
+        "border": "#2B2F3A",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#8B92A5",
+        "accent_cyan": "#56B6C2",
+        "accent_blue": "#61AFEF",
+        "accent_green": "#98C379",
+        "accent_purple": "#C678DD",
+        "card_inner_bg": "#1E212B",
+        "surface_elevated": "#1E212B"
     },
     "light": {
-        "bg_base": "#000000",
-        "bg_surface": "#000000",
-        "border": "#CBD5E1",
-        "text_primary": "#0F172A",
-        "text_secondary": "#475569",
-        "accent_cyan": "#0284C7",
-        "accent_blue": "#1D4ED8",
+        "bg_base": "#F7F7F8",
+        "bg_surface": "#FFFFFF",
+        "border": "#E2E8F0",
+        "text_primary": "#1A202C",
+        "text_secondary": "#4A5568",
+        "accent_cyan": "#2C5282",
+        "accent_blue": "#EBF8FF",
+        "accent_green": "#059669",
+        "accent_purple": "#6D28D9",
+        "card_inner_bg": "#FAFAFA",
+        "surface_elevated": "#FAFAFA"
     }
 }
 
@@ -48,7 +58,7 @@ def render_matrix(theme):
     
     hdr_left = f'<text x="32" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["accent_cyan"]}" letter-spacing="2">✦ ENGINEERING CAPABILITY MATRIX</text>'
     hdr_right = f'<text x="768" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["text_secondary"]}" letter-spacing="2" text-anchor="end">STACK / 2026</text>'
-    subtitle = f'<text x="32" y="60" font-family="{SYSTEM_FONT}" font-size="14" font-weight="500" fill="{c["text_secondary"]}">Technologies across software, systems, security and connected engineering</text>'
+    subtitle = f'<text x="32" y="60" font-family="{SERIF_FONT}" font-size="14" font-weight="500" fill="{c["text_secondary"]}">Technologies across software, systems, security and connected engineering</text>'
     
     grid = ""
     start_x = 32
@@ -65,7 +75,7 @@ def render_matrix(theme):
         y = start_y + row * (box_h + gap_y)
         
         # Box background
-        grid += f'<rect x="{x}" y="{y}" width="{box_w}" height="{box_h}" rx="6" fill="transparent" stroke="{c["border"]}" stroke-width="1.5"/>'
+        grid += f'<rect x="{x}" y="{y}" width="{box_w}" height="{box_h}" rx="4" fill="{c['card_inner_bg']}" stroke="{c["border"]}" stroke-width="1.5"/>'
         
         # Header
         grid += f'<text x="{x+16}" y="{y+26}" font-family="{MONO_FONT}" font-size="12" font-weight="700" fill="{c["accent_cyan"]}">{cat["id"]}</text>'
@@ -80,19 +90,24 @@ def render_matrix(theme):
     footer_y = height - 24
     footer = f'<text x="400" y="{footer_y}" font-family="{MONO_FONT}" font-size="12" font-weight="600" fill="{c["text_secondary"]}" letter-spacing="2" text-anchor="middle">SOFTWARE  •  SECURITY  •  CONNECTED SYSTEMS  •  INFRASTRUCTURE</text>'
     
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">
+    full_width = width + 80
+    full_height = height + 40
+    shadow_opacity = 0.3 if theme == "dark" else 0.04
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {full_width} {full_height}" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="{c['bg_surface']}" />
-      <stop offset="100%" stop-color="{c['bg_base']}" />
-    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="{shadow_opacity}" flood-color="#000000" />
+    </filter>
   </defs>
-  <rect width="{width}" height="{height}" rx="12" fill="url(#bg)" stroke="{c['border']}" stroke-width="1.5"/>
-  {hdr_left}
-  {hdr_right}
-  {subtitle}
-  {grid}
-  {footer}
+  <rect x="0" y="0" width="{full_width}" height="{full_height}" fill="{c['bg_base']}" />
+  <rect x="40" y="20" width="{width}" height="{height}" rx="4" fill="{c['bg_surface']}" stroke="{c['border']}" stroke-width="1" filter="url(#shadow)"/>
+  <g transform="translate(40, 20)">
+    {hdr_left}
+    {hdr_right}
+    {subtitle}
+    {grid}
+    {footer}
+  </g>
 </svg>"""
     return svg
 

@@ -3,46 +3,56 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS_DIR = os.path.join(BASE_DIR, "assets", "cards")
 
-SYSTEM_FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-MONO_FONT = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace"
+SYSTEM_FONT = "'Times New Roman', Times, serif"
+MONO_FONT = "'Courier New', Courier, monospace"
+SERIF_FONT = "Georgia, serif"
+
 
 PALETTES = {
     "dark": {
-        "bg_base": "#000000",
-        "bg_surface": "#000000",
-        "border": "#1E293B",
-        "text_primary": "#F8FAFC",
-        "text_secondary": "#94A3B8",
-        "accent_cyan": "#38BDF8",
-        "accent_blue": "#1D4ED8",
-        "accent_green": "#22C55E",
-        "accent_purple": "#A78BFA"
+        "bg_base": "#0B0C10",
+        "bg_surface": "#15171E",
+        "border": "#2B2F3A",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#8B92A5",
+        "accent_cyan": "#56B6C2",
+        "accent_blue": "#61AFEF",
+        "accent_green": "#98C379",
+        "accent_purple": "#C678DD",
+        "card_inner_bg": "#1E212B",
+        "surface_elevated": "#1E212B"
     },
     "light": {
-        "bg_base": "#000000",
-        "bg_surface": "#000000",
-        "border": "#CBD5E1",
-        "text_primary": "#0F172A",
-        "text_secondary": "#475569",
-        "accent_cyan": "#0284C7",
-        "accent_blue": "#1D4ED8",
-        "accent_green": "#15803D",
-        "accent_purple": "#7C3AED"
+        "bg_base": "#F7F7F8",
+        "bg_surface": "#FFFFFF",
+        "border": "#E2E8F0",
+        "text_primary": "#1A202C",
+        "text_secondary": "#4A5568",
+        "accent_cyan": "#2C5282",
+        "accent_blue": "#EBF8FF",
+        "accent_green": "#059669",
+        "accent_purple": "#6D28D9",
+        "card_inner_bg": "#FAFAFA",
+        "surface_elevated": "#FAFAFA"
     }
 }
 
 def svg_base(width, height, theme, content):
     c = PALETTES[theme]
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">
+    full_width = width + 80
+    full_height = height + 40
+    shadow_opacity = 0.3 if theme == "dark" else 0.04
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {full_width} {full_height}" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="{c['bg_surface']}" />
-      <stop offset="100%" stop-color="{c['bg_base']}" />
-    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="{shadow_opacity}" flood-color="#000000" />
+    </filter>
   </defs>
-  <rect width="{width}" height="{height}" rx="12" fill="url(#bg)" stroke="{c['border']}" stroke-width="1.5"/>
-  <line x1="0" y1="50" x2="{width}" y2="50" stroke="{c['border']}" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
-  {content}
+  <rect x="0" y="0" width="{full_width}" height="{full_height}" fill="{c["bg_base"]}" />
+  <rect x="40" y="20" width="{width}" height="{height}" rx="4" fill="{c["bg_surface"]}" stroke="{c["border"]}" stroke-width="1" filter="url(#shadow)"/>
+  <g transform="translate(40, 20)">
+    {content}
+  </g>
 </svg>"""
 
 def render_philosophy(theme):
@@ -84,7 +94,7 @@ def render_labs(theme):
     <text x="644" y="32" font-family="{MONO_FONT}" font-size="12" font-weight="600" fill="{c["accent_green"]}" letter-spacing="1">FOUNDER / BUILDER</text>
     """
     
-    title = f'<text x="32" y="100" font-family="{SYSTEM_FONT}" font-size="28" font-weight="800" fill="{c["text_primary"]}">Rishvin Labs</text>'
+    title = f'<text x="32" y="100" font-family="{SERIF_FONT}" font-size="28" font-weight="800" fill="{c["text_primary"]}">Rishvin Labs</text>'
     mission = f'<text x="32" y="140" font-family="{SYSTEM_FONT}" font-size="16" font-weight="400" fill="{c["text_secondary"]}">Engineering-focused initiative for useful, secure, and scalable systems.</text>'
     
     domains_txt = "Software Systems  •  Web Engineering  •  IoT Solutions  •  Cybersecurity  •  Automation"
@@ -158,7 +168,7 @@ def render_connect(theme):
     c = PALETTES[theme]
     hdr = f'<text x="32" y="32" font-family="{MONO_FONT}" font-size="13" font-weight="600" fill="{c["text_primary"]}" letter-spacing="2">✦ CONNECT</text>'
     
-    name = f'<text x="32" y="95" font-family="{SYSTEM_FONT}" font-size="24" font-weight="800" fill="{c["text_primary"]}">Erolla Rishvin Reddy</text>'
+    name = f'<text x="32" y="95" font-family="{SERIF_FONT}" font-size="24" font-weight="800" fill="{c["text_primary"]}">Erolla Rishvin Reddy</text>'
     focus = f'<text x="32" y="125" font-family="{MONO_FONT}" font-size="14" fill="{c["text_secondary"]}">Software Engineering • Cybersecurity • IoT</text>'
     
     endpoints = [
@@ -245,7 +255,7 @@ def render_what_i_build(theme):
         x = 32 + (i % 2) * 380
         y = 70 + (i // 2) * 140
         grid += f'<rect x="{x}" y="{y}" width="350" height="120" rx="6" fill="{c["border"]}" fill-opacity="0.1" stroke="{c["border"]}" stroke-width="1"/>'
-        grid += f'<text x="{x+16}" y="{y+24}" font-family="{SYSTEM_FONT}" font-size="14" font-weight="700" fill="{c["text_primary"]}">{title}</text>'
+        grid += f'<text x="{x+16}" y="{y+24}" font-family="{SERIF_FONT}" font-size="14" font-weight="700" fill="{c["text_primary"]}">{title}</text>'
         
         for j, item in enumerate(items):
             grid += f'<text x="{x+16}" y="{y+46 + j*16}" font-family="{MONO_FONT}" font-size="11" fill="{c["text_secondary"]}">> {item}</text>'

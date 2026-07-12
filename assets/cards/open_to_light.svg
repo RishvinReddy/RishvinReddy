@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#000000" />
-      <stop offset="100%" stop-color="#000000" />
-    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="0.04" flood-color="#000000" />
+    </filter>
   </defs>
-  <rect width="800" height="180" rx="12" fill="url(#bg)" stroke="#CBD5E1" stroke-width="1.5"/>
-  <line x1="0" y1="50" x2="800" y2="50" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
-  <text x="32" y="32" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#15803D" letter-spacing="2">✦ OPPORTUNITIES</text>
-    <circle cx="580" cy="28" r="4" fill="#15803D">
+  <rect x="0" y="0" width="880" height="220" fill="#F7F7F8" />
+  <rect x="40" y="20" width="800" height="180" rx="4" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+  <g transform="translate(40, 20)">
+    <text x="32" y="32" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="600" fill="#059669" letter-spacing="2">✦ OPPORTUNITIES</text>
+    <circle cx="580" cy="28" r="4" fill="#059669">
       <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite" />
     </circle>
-    <text x="594" y="32" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#15803D" letter-spacing="1">OPEN TO OPPORTUNITIES</text>
+    <text x="594" y="32" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="600" fill="#059669" letter-spacing="1">OPEN TO OPPORTUNITIES</text>
     
-    <text x="32" y="90" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#475569">I am particularly interested in opportunities where I can contribute to:</text>
-    <rect x="32" y="115" width="137" height="32" rx="16" fill="#CBD5E1" fill-opacity="0.2" stroke="#CBD5E1" stroke-width="1"/><text x="100.5" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0F172A" text-anchor="middle">Cybersecurity</text><rect x="181" y="115" width="155" height="32" rx="16" fill="#CBD5E1" fill-opacity="0.2" stroke="#CBD5E1" stroke-width="1"/><text x="258.5" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0F172A" text-anchor="middle">IoT Engineering</text><rect x="348" y="115" width="182" height="32" rx="16" fill="#CBD5E1" fill-opacity="0.2" stroke="#CBD5E1" stroke-width="1"/><text x="439.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0F172A" text-anchor="middle">Blockchain Systems</text><rect x="542" y="115" width="191" height="32" rx="16" fill="#CBD5E1" fill-opacity="0.2" stroke="#CBD5E1" stroke-width="1"/><text x="637.5" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0F172A" text-anchor="middle">Backend Engineering</text><rect x="745" y="115" width="182" height="32" rx="16" fill="#CBD5E1" fill-opacity="0.2" stroke="#CBD5E1" stroke-width="1"/><text x="836.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0F172A" text-anchor="middle">Full-Stack Systems</text><rect x="939" y="115" width="218" height="32" rx="16" fill="#CBD5E1" fill-opacity="0.2" stroke="#CBD5E1" stroke-width="1"/><text x="1048.0" y="136" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0F172A" text-anchor="middle">Engineering Automation</text>
+    <text x="32" y="90" font-family="'Times New Roman', Times, serif" font-size="16" fill="#4A5568">I am particularly interested in opportunities where I can contribute to:</text>
+    <rect x="32" y="115" width="137" height="32" rx="16" fill="#E2E8F0" fill-opacity="0.2" stroke="#E2E8F0" stroke-width="1"/><text x="100.5" y="136" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="500" fill="#1A202C" text-anchor="middle">Cybersecurity</text><rect x="181" y="115" width="155" height="32" rx="16" fill="#E2E8F0" fill-opacity="0.2" stroke="#E2E8F0" stroke-width="1"/><text x="258.5" y="136" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="500" fill="#1A202C" text-anchor="middle">IoT Engineering</text><rect x="348" y="115" width="182" height="32" rx="16" fill="#E2E8F0" fill-opacity="0.2" stroke="#E2E8F0" stroke-width="1"/><text x="439.0" y="136" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="500" fill="#1A202C" text-anchor="middle">Blockchain Systems</text><rect x="542" y="115" width="191" height="32" rx="16" fill="#E2E8F0" fill-opacity="0.2" stroke="#E2E8F0" stroke-width="1"/><text x="637.5" y="136" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="500" fill="#1A202C" text-anchor="middle">Backend Engineering</text><rect x="745" y="115" width="182" height="32" rx="16" fill="#E2E8F0" fill-opacity="0.2" stroke="#E2E8F0" stroke-width="1"/><text x="836.0" y="136" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="500" fill="#1A202C" text-anchor="middle">Full-Stack Systems</text><rect x="939" y="115" width="218" height="32" rx="16" fill="#E2E8F0" fill-opacity="0.2" stroke="#E2E8F0" stroke-width="1"/><text x="1048.0" y="136" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="500" fill="#1A202C" text-anchor="middle">Engineering Automation</text>
+  </g>
 </svg>

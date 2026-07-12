@@ -3,6 +3,8 @@ import json
 import math
 import urllib.request
 import urllib.error
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 import re
 import textwrap
 from datetime import datetime, timezone
@@ -22,25 +24,37 @@ MANIFEST_PATH = os.path.join(ASSETS_DIR, "manifest.json")
 START_MARKER = "<!-- STARRED_REPOS_START -->"
 END_MARKER = "<!-- STARRED_REPOS_END -->"
 
-SYSTEM_FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-MONO_FONT = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace"
+SYSTEM_FONT = "'Times New Roman', Times, serif"
+MONO_FONT = "'Courier New', Courier, monospace"
+SERIF_FONT = "Georgia, serif"
+
 
 PALETTES = {
     "dark": {
-        "bg_base": "#000000",
-        "bg_surface": "#000000",
-        "surface_elevated": "#0A0A0A",
-        "text_primary": "#F8FAFC",
-        "text_secondary": "#94A3B8",
-        "border": "#1E293B"
+        "bg_base": "#0B0C10",
+        "bg_surface": "#15171E",
+        "border": "#2B2F3A",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#8B92A5",
+        "accent_cyan": "#56B6C2",
+        "accent_blue": "#61AFEF",
+        "accent_green": "#98C379",
+        "accent_purple": "#C678DD",
+        "card_inner_bg": "#1E212B",
+        "surface_elevated": "#1E212B"
     },
     "light": {
-        "bg_base": "#000000",
-        "bg_surface": "#000000",
-        "surface_elevated": "#F1F5F9",
-        "text_primary": "#0F172A",
-        "text_secondary": "#475569",
-        "border": "#CBD5E1"
+        "bg_base": "#F7F7F8",
+        "bg_surface": "#FFFFFF",
+        "border": "#E2E8F0",
+        "text_primary": "#1A202C",
+        "text_secondary": "#4A5568",
+        "accent_cyan": "#2C5282",
+        "accent_blue": "#EBF8FF",
+        "accent_green": "#059669",
+        "accent_purple": "#6D28D9",
+        "card_inner_bg": "#FAFAFA",
+        "surface_elevated": "#FAFAFA"
     }
 }
 
@@ -243,23 +257,24 @@ def render_project_svg(meta, theme):
         tspans.append(f'<text x="0" y="{i * 24}" font-family="{SYSTEM_FONT}" font-size="15" font-weight="400" fill="{colors["text_secondary"]}">{sanitize_svg_text(line)}</text>')
     desc_svg = "\n      ".join(tspans)
     
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" width="100%" height="100%">
+    shadow_opacity = 0.3 if theme == "dark" else 0.04
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" width="100%" height="100%">
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="{colors["bg_surface"]}" />
-      <stop offset="100%" stop-color="{colors["bg_base"]}" />
-    </linearGradient>
     <clipPath id="cardClip">
-      <rect x="0" y="0" width="560" height="230" rx="16" />
+      <rect x="40" y="20" width="560" height="230" rx="4" />
     </clipPath>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="{shadow_opacity}" flood-color="#000000" />
+    </filter>
   </defs>
   
-  <rect x="0" y="0" width="560" height="230" rx="16" fill="url(#bgGradient)" stroke="{colors["border"]}" stroke-width="1.5"/>
-  <rect x="0" y="0" width="4" height="230" fill="{accent}" clip-path="url(#cardClip)"/>
+  <rect x="0" y="0" width="640" height="270" fill="{colors["bg_base"]}" />
+  <rect x="40" y="20" width="560" height="230" rx="4" fill="{colors["bg_surface"]}" stroke="{colors["border"]}" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="40" y="20" width="4" height="230" fill="{accent}" clip-path="url(#cardClip)"/>
   
-  <g transform="translate(32, 32)">
+  <g transform="translate(72, 52)">
     <text x="0" y="10" font-family="{SYSTEM_FONT}" font-size="12" font-weight="700" fill="{accent}" letter-spacing="1.5">{sanitize_svg_text(eyebrow)}</text>
-    <text x="0" y="44" font-family="{MONO_FONT}" font-size="22" font-weight="700" fill="{colors["text_primary"]}">{sanitize_svg_text(meta["repo_name"])}</text>
+    <text x="0" y="44" font-family="{SERIF_FONT}" font-size="24" font-weight="700" fill="{colors["text_primary"]}">{sanitize_svg_text(meta["repo_name"])}</text>
     <g transform="translate(0, 78)">
       {desc_svg}
     </g>

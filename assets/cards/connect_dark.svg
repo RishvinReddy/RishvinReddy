@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#000000" />
-      <stop offset="100%" stop-color="#000000" />
-    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="0.3" flood-color="#000000" />
+    </filter>
   </defs>
-  <rect width="800" height="160" rx="12" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5"/>
-  <line x1="0" y1="50" x2="800" y2="50" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
-  <text x="32" y="32" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" fill="#F8FAFC" letter-spacing="2">✦ CONNECT</text><text x="32" y="95" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="800" fill="#F8FAFC">Erolla Rishvin Reddy</text><text x="32" y="125" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" fill="#94A3B8">Software Engineering • Cybersecurity • IoT</text><text x="450" y="75" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#38BDF8">GITHUB</text><text x="540" y="75" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#F8FAFC">github.com/RishvinReddy</text><text x="450" y="103" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#38BDF8">LINKEDIN</text><text x="540" y="103" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#F8FAFC">linkedin.com/in/rishvin-reddy</text><text x="450" y="131" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#38BDF8">EMAIL</text><text x="540" y="131" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#F8FAFC">rishvinreddy@gmail.com</text>
+  <rect x="0" y="0" width="880" height="200" fill="#0B0C10" />
+  <rect x="40" y="20" width="800" height="160" rx="4" fill="#15171E" stroke="#2B2F3A" stroke-width="1" filter="url(#shadow)"/>
+  <g transform="translate(40, 20)">
+    <text x="32" y="32" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="600" fill="#FFFFFF" letter-spacing="2">✦ CONNECT</text><text x="32" y="95" font-family="Georgia, serif" font-size="24" font-weight="800" fill="#FFFFFF">Erolla Rishvin Reddy</text><text x="32" y="125" font-family="'Courier New', Courier, monospace" font-size="14" fill="#8B92A5">Software Engineering • Cybersecurity • IoT</text><text x="450" y="75" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="700" fill="#56B6C2">GITHUB</text><text x="540" y="75" font-family="'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">github.com/RishvinReddy</text><text x="450" y="103" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="700" fill="#56B6C2">LINKEDIN</text><text x="540" y="103" font-family="'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">linkedin.com/in/rishvin-reddy</text><text x="450" y="131" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="700" fill="#56B6C2">EMAIL</text><text x="540" y="131" font-family="'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">rishvinreddy@gmail.com</text>
+  </g>
 </svg>
