@@ -109,6 +109,26 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/n8n-ai-github-code-to-linkedin-publisher">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg">
+  <img alt="n8n-ai-github-code-to-linkedin-publ… - Engineering project" src="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/rishvin-labs">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-labs-light.svg">
+  <img alt="rishvin-labs - Engineering project" src="./assets/projects/project-rishvin-labs-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/HandMatrix">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
@@ -147,28 +167,9 @@
 </a>
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/Interactive-Disk-Scheduling-Algorithm-Visualizer">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-interactive-disk-scheduling-algorithm-visualizer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-interactive-disk-scheduling-algorithm-visualizer-light.svg">
-  <img alt="Interactive-Disk-Scheduling-Algorit… - Engineering project" src="./assets/projects/project-interactive-disk-scheduling-algorithm-visualizer-light.svg" width="100%">
-</picture>
-</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/Gov-Payroll-System">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-gov-payroll-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-gov-payroll-system-light.svg">
-  <img alt="Gov-Payroll-System - Engineering project" src="./assets/projects/project-gov-payroll-system-light.svg" width="100%">
-</picture>
-</a>
-</td>
-</tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
