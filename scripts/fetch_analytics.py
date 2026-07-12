@@ -62,24 +62,23 @@ def process_svg(svg_content, theme):
     # We can add Georgia for specific large texts if needed, but Times New Roman is enough for data.
     
     # Specific color replacements for TokyoNight / Algolia
-    # Backgrounds
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#1a1b27"?', r'\1="' + c["bg_surface"] + '"', svg_content)
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#050f2c"?', r'\1="' + c["bg_surface"] + '"', svg_content)
+    svg_content = re.sub(r'(?i)#1a1b27', c["bg_surface"], svg_content)
+    svg_content = re.sub(r'(?i)#050f2c', c["bg_surface"], svg_content)
     
     # Primary Text (titles)
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#70a5fd"?', r'\1="' + c["accent_cyan"] + '"', svg_content)
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#00aeff"?', r'\1="' + c["accent_cyan"] + '"', svg_content)
+    svg_content = re.sub(r'(?i)#70a5fd', c["accent_cyan"], svg_content)
+    svg_content = re.sub(r'(?i)#00aeff', c["accent_cyan"], svg_content)
     
     # Secondary Text (stats/labels)
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#38bdae"?', r'\1="' + c["text_secondary"] + '"', svg_content)
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#8be9fd"?', r'\1="' + c["text_secondary"] + '"', svg_content)
+    svg_content = re.sub(r'(?i)#38bdae', c["text_secondary"], svg_content)
+    svg_content = re.sub(r'(?i)#8be9fd', c["text_secondary"], svg_content)
     
     # Icons / Trophies
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#bf91f3"?', r'\1="' + c["accent_purple"] + '"', svg_content)
+    svg_content = re.sub(r'(?i)#bf91f3', c["accent_purple"], svg_content)
     
     # Views Badge
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#0ea5e9"?', r'\1="' + c["accent_cyan"] + '"', svg_content)
-    svg_content = re.sub(r'(?i)(fill|stroke|stop-color)="?#555"?', r'\1="' + c["border"] + '"', svg_content)
+    svg_content = re.sub(r'(?i)#0ea5e9', c["accent_cyan"], svg_content)
+    svg_content = re.sub(r'(?i)#555', c["border"], svg_content)
 
     # Make trophies background transparent if they have it
     # Trophies are returned wrapped in SVGs
