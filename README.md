@@ -302,6 +302,12 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/cards/connect_light.svg?v=2">
   <img alt="Connect with Rishvin Reddy" src="./assets/cards/connect_dark.svg?v=2" width="100%">
 </picture>
+<br/><br/>
+<p align="center">
+  <a href="https://github.com/RishvinReddy"><img src="https://img.shields.io/badge/GitHub-15171E?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/rishvin-reddy"><img src="https://img.shields.io/badge/LinkedIn-2C5282?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:rishvinreddy@gmail.com"><img src="https://img.shields.io/badge/Email-56B6C2?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 </div>
 <br/>
 
