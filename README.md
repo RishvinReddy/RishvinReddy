@@ -91,18 +91,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/rishvinreddy.github.io">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvinreddy-github-io-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvinreddy-github-io-light.svg?v=2">
-  <img alt="rishvinreddy.github.io - Engineering project" src="./assets/projects/project-rishvinreddy-github-io-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvinreddy-github-io-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvinreddy-github-io-light.svg">
+  <img alt="rishvinreddy.github.io - Engineering project" src="./assets/projects/project-rishvinreddy-github-io-light.svg" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/AI-Security-Guardian">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ai-security-guardian-light.svg?v=2">
-  <img alt="AI-Security-Guardian - Engineering project" src="./assets/projects/project-ai-security-guardian-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ai-security-guardian-light.svg">
+  <img alt="AI-Security-Guardian - Engineering project" src="./assets/projects/project-ai-security-guardian-light.svg" width="100%">
 </picture>
 </a>
 </td>
@@ -111,18 +111,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/n8n-ai-github-code-to-linkedin-publisher">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg?v=2">
-  <img alt="n8n-ai-github-code-to-linkedin-publ… - Engineering project" src="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg">
+  <img alt="n8n-ai-github-code-to-linkedin-publ… - Engineering project" src="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/rishvin-labs">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-labs-light.svg?v=2">
-  <img alt="rishvin-labs - Engineering project" src="./assets/projects/project-rishvin-labs-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-labs-light.svg">
+  <img alt="rishvin-labs - Engineering project" src="./assets/projects/project-rishvin-labs-light.svg" width="100%">
 </picture>
 </a>
 </td>
@@ -131,18 +131,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/HandMatrix">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg?v=2">
-  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg">
+  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Smart-cart-os">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-smart-cart-os-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-smart-cart-os-light.svg?v=2">
-  <img alt="Smart-cart-os - Engineering project" src="./assets/projects/project-smart-cart-os-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-smart-cart-os-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-smart-cart-os-light.svg">
+  <img alt="Smart-cart-os - Engineering project" src="./assets/projects/project-smart-cart-os-light.svg" width="100%">
 </picture>
 </a>
 </td>
@@ -151,24 +151,25 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Biometric-Voting-System">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-biometric-voting-system-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-biometric-voting-system-light.svg?v=2">
-  <img alt="Biometric-Voting-System - Engineering project" src="./assets/projects/project-biometric-voting-system-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-biometric-voting-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-biometric-voting-system-light.svg">
+  <img alt="Biometric-Voting-System - Engineering project" src="./assets/projects/project-biometric-voting-system-light.svg" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg?v=2">
-  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg">
+  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg" width="100%">
 </picture>
 </a>
 </td>
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
