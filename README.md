@@ -192,19 +192,49 @@
 ## ✦ GitHub Analytics
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=RishvinReddy&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RishvinReddy&theme=tokyonight" width="95%" alt="GitHub Profile Details" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/views_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/views_light.svg">
+  <img alt="Profile Views" src="./assets/analytics/views_dark.svg" >
+</picture>
+<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/profile_details_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/profile_details_light.svg">
+  <img alt="GitHub Profile Details" src="./assets/analytics/profile_details_dark.svg" width='95%'>
+</picture>
 <p>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RishvinReddy&theme=tokyonight" height="160" alt="GitHub Stats"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RishvinReddy&theme=tokyonight" height="160" alt="Repositories per Language"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/stats_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/stats_light.svg">
+  <img alt="GitHub Stats" src="./assets/analytics/stats_dark.svg" height='160'>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/repos_per_language_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/repos_per_language_light.svg">
+  <img alt="Repositories per Language" src="./assets/analytics/repos_per_language_dark.svg" height='160'>
+</picture>
 </p>
 <p>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RishvinReddy&theme=tokyonight" height="160" alt="Most Commit Language"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RishvinReddy&theme=tokyonight&utcOffset=5.5" height="160" alt="Productive Time"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/most_commit_language_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/most_commit_language_light.svg">
+  <img alt="Most Commit Language" src="./assets/analytics/most_commit_language_dark.svg" height='160'>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/productive_time_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/productive_time_light.svg">
+  <img alt="Productive Time" src="./assets/analytics/productive_time_dark.svg" height='160'>
+</picture>
 </p>
 <br/>
 <img src="https://github-profile-trophy.vercel.app/?username=RishvinReddy&theme=algolia&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" alt="GitHub Trophies" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RishvinReddy&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="GitHub Activity Graph"/>
+<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/analytics/activity_graph_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/analytics/activity_graph_light.svg">
+  <img alt="GitHub Activity Graph" src="./assets/analytics/activity_graph_dark.svg" width='95%'>
+</picture>
 </div>
 
 ⸻

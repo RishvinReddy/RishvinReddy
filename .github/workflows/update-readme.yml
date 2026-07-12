@@ -40,12 +40,13 @@ jobs:
           python scripts/generate_tech_stack.py
           python scripts/generate_profile_cards.py
           python scripts/update_projects.py
+          python scripts/fetch_analytics.py
 
       - name: Commit changes
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md dark_mode.svg light_mode.svg cache/stats.json assets/projects/
+          git add README.md dark_mode.svg light_mode.svg cache/stats.json assets/projects/ assets/analytics/
           if git diff --cached --quiet; then
             echo "No profile changes detected."
             exit 0
