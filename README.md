@@ -307,9 +307,9 @@
 ⸻
 
 <div align="center">
-
-Secure systems. Scalable engineering. Real-world impact.
-
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,40:1d4ed8,80:0c1527,100:020617&height=160&section=footer&text=Build.+Secure.+Scale.+Impact.&fontSize=18&fontColor=94a3b8&fontAlignY=65&animation=fadeIn" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/footer_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/footer_light.svg">
+  <img alt="Secure systems. Scalable engineering. Real-world impact." src="./assets/cards/footer_dark.svg" width="100%">
+</picture>
 </div>

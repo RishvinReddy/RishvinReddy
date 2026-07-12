@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="0.04" flood-color="#000000" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="880" height="120" fill="#F7F7F8" />
+  <rect x="40" y="20" width="800" height="80" rx="4" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+  <g transform="translate(40, 20)">
+    
+    <text x="400" y="47" font-family="Georgia, serif" font-weight="bold" font-size="20" fill="#1A202C" letter-spacing="1" text-anchor="middle">Secure systems. Scalable engineering. Real-world impact.</text>
+    
+  </g>
+</svg>

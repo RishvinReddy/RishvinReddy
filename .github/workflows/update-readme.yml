@@ -39,6 +39,7 @@ jobs:
           python scripts/generate_about.py
           python scripts/generate_tech_stack.py
           python scripts/generate_profile_cards.py
+          python scripts/generate_footer.py
           python scripts/update_projects.py
           python scripts/fetch_analytics.py
 
