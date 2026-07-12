@@ -2,14 +2,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./dark_mode.svg"
+    srcset="./dark_mode.svg?v=2"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="./light_mode.svg"
+    srcset="./light_mode.svg?v=2"
   />
   <img
-    src="./dark_mode.svg"
+    src="./dark_mode.svg?v=2"
     alt="Rishvin Reddy — Engineering Profile"
     width="100%"
   />
@@ -23,9 +23,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/about_light.svg">
-  <img alt="Rishvin Reddy — About Me" src="./assets/about_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/about_light.svg?v=2">
+  <img alt="Rishvin Reddy — About Me" src="./assets/about_dark.svg?v=2" width="100%">
 </picture>
 </div>
 
@@ -35,9 +35,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_profile_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_profile_light.svg">
-  <img alt="Engineering Profile" src="./assets/cards/engineering_profile_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_profile_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_profile_light.svg?v=2">
+  <img alt="Engineering Profile" src="./assets/cards/engineering_profile_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -48,9 +48,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/what_i_build_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/what_i_build_light.svg">
-  <img alt="What I Build" src="./assets/cards/what_i_build_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/what_i_build_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/what_i_build_light.svg?v=2">
+  <img alt="What I Build" src="./assets/cards/what_i_build_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -61,9 +61,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/technical_domains_dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/technical_domains_light.svg?v=1">
-  <img alt="Technical Domains" src="./assets/cards/technical_domains_dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/technical_domains_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/technical_domains_light.svg?v=2">
+  <img alt="Technical Domains" src="./assets/cards/technical_domains_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -74,9 +74,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/tech_stack_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/tech_stack_light.svg">
-  <img alt="Rishvin Reddy Engineering Tech Stack" src="./assets/cards/tech_stack_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/tech_stack_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/tech_stack_light.svg?v=2">
+  <img alt="Rishvin Reddy Engineering Tech Stack" src="./assets/cards/tech_stack_dark.svg?v=2" width="100%">
 </picture>
 </div>
 
@@ -91,18 +91,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/rishvinreddy.github.io">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvinreddy-github-io-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvinreddy-github-io-light.svg">
-  <img alt="rishvinreddy.github.io - Engineering project" src="./assets/projects/project-rishvinreddy-github-io-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvinreddy-github-io-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvinreddy-github-io-light.svg?v=2">
+  <img alt="rishvinreddy.github.io - Engineering project" src="./assets/projects/project-rishvinreddy-github-io-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/AI-Security-Guardian">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ai-security-guardian-light.svg">
-  <img alt="AI-Security-Guardian - Engineering project" src="./assets/projects/project-ai-security-guardian-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ai-security-guardian-light.svg?v=2">
+  <img alt="AI-Security-Guardian - Engineering project" src="./assets/projects/project-ai-security-guardian-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
@@ -111,18 +111,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/n8n-ai-github-code-to-linkedin-publisher">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg">
-  <img alt="n8n-ai-github-code-to-linkedin-publ… - Engineering project" src="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg?v=2">
+  <img alt="n8n-ai-github-code-to-linkedin-publ… - Engineering project" src="./assets/projects/project-n8n-ai-github-code-to-linkedin-publisher-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/rishvin-labs">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-labs-light.svg">
-  <img alt="rishvin-labs - Engineering project" src="./assets/projects/project-rishvin-labs-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-labs-light.svg?v=2">
+  <img alt="rishvin-labs - Engineering project" src="./assets/projects/project-rishvin-labs-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
@@ -131,18 +131,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/HandMatrix">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg">
-  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg?v=2">
+  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Smart-cart-os">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-smart-cart-os-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-smart-cart-os-light.svg">
-  <img alt="Smart-cart-os - Engineering project" src="./assets/projects/project-smart-cart-os-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-smart-cart-os-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-smart-cart-os-light.svg?v=2">
+  <img alt="Smart-cart-os - Engineering project" src="./assets/projects/project-smart-cart-os-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
@@ -151,18 +151,18 @@
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Biometric-Voting-System">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-biometric-voting-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-biometric-voting-system-light.svg">
-  <img alt="Biometric-Voting-System - Engineering project" src="./assets/projects/project-biometric-voting-system-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-biometric-voting-system-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-biometric-voting-system-light.svg?v=2">
+  <img alt="Biometric-Voting-System - Engineering project" src="./assets/projects/project-biometric-voting-system-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg">
-  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg?v=2">
+  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg?v=2" width="100%">
 </picture>
 </a>
 </td>
@@ -181,9 +181,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_direction_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_direction_light.svg">
-  <img alt="Engineering Direction" src="./assets/cards/engineering_direction_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_direction_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_direction_light.svg?v=2">
+  <img alt="Engineering Direction" src="./assets/cards/engineering_direction_dark.svg?v=2" width="100%">
 </picture>
 </div>
 
@@ -213,9 +213,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_philosophy_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_philosophy_light.svg">
-  <img alt="Engineering Philosophy" src="./assets/cards/engineering_philosophy_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/engineering_philosophy_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/engineering_philosophy_light.svg?v=2">
+  <img alt="Engineering Philosophy" src="./assets/cards/engineering_philosophy_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -226,9 +226,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/rishvin_labs_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/rishvin_labs_light.svg">
-  <img alt="Rishvin Labs — Founder and Builder" src="./assets/cards/rishvin_labs_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/rishvin_labs_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/rishvin_labs_light.svg?v=2">
+  <img alt="Rishvin Labs — Founder and Builder" src="./assets/cards/rishvin_labs_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -239,9 +239,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/academic_journey_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/academic_journey_light.svg">
-  <img alt="Academic Journey — B.Tech CSE at Woxsen University" src="./assets/cards/academic_journey_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/academic_journey_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/academic_journey_light.svg?v=2">
+  <img alt="Academic Journey — B.Tech CSE at Woxsen University" src="./assets/cards/academic_journey_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -252,9 +252,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/open_to_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/open_to_light.svg">
-  <img alt="Open to Engineering Opportunities" src="./assets/cards/open_to_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/open_to_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/open_to_light.svg?v=2">
+  <img alt="Open to Engineering Opportunities" src="./assets/cards/open_to_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
@@ -265,9 +265,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/connect_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/connect_light.svg">
-  <img alt="Connect with Rishvin Reddy" src="./assets/cards/connect_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/connect_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards/connect_light.svg?v=2">
+  <img alt="Connect with Rishvin Reddy" src="./assets/cards/connect_dark.svg?v=2" width="100%">
 </picture>
 </div>
 <br/>
