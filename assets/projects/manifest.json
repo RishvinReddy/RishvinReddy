@@ -26,6 +26,12 @@
       "dark": "project-rishvin-labs-dark.svg"
     },
     {
+      "repository": "EcoBin-Smart-Waste-Management-System",
+      "slug": "ecobin-smart-waste-management-system",
+      "light": "project-ecobin-smart-waste-management-system-light.svg",
+      "dark": "project-ecobin-smart-waste-management-system-dark.svg"
+    },
+    {
       "repository": "HandMatrix",
       "slug": "handmatrix",
       "light": "project-handmatrix-light.svg",
@@ -42,12 +48,6 @@
       "slug": "biometric-voting-system",
       "light": "project-biometric-voting-system-light.svg",
       "dark": "project-biometric-voting-system-dark.svg"
-    },
-    {
-      "repository": "Face-Mesh-Verification-System",
-      "slug": "face-mesh-verification-system",
-      "light": "project-face-mesh-verification-system-light.svg",
-      "dark": "project-face-mesh-verification-system-dark.svg"
     }
   ]
 }

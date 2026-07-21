@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" width="100%" height="100%">
+  <defs>
+    <clipPath id="cardClip">
+      <rect x="40" y="20" width="560" height="230" rx="4" />
+    </clipPath>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="0.04" flood-color="#000000" />
+    </filter>
+  </defs>
+  
+  <rect x="0" y="0" width="640" height="270" fill="#F7F7F8" />
+  <rect x="40" y="20" width="560" height="230" rx="4" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="40" y="20" width="4" height="230" fill="#15803D" clip-path="url(#cardClip)"/>
+  
+  <g transform="translate(72, 52)">
+    <text x="0" y="10" font-family="'Times New Roman', Times, serif" font-size="12" font-weight="700" fill="#15803D" letter-spacing="1.5">IOT SYSTEM</text>
+    <text x="0" y="44" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#1A202C">EcoBin-Smart-Waste-Management-System</text>
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" font-family="'Times New Roman', Times, serif" font-size="15" font-weight="400" fill="#4A5568">    AI-powered smart waste management system for IoT</text>
+      <text x="0" y="24" font-family="'Times New Roman', Times, serif" font-size="15" font-weight="400" fill="#4A5568">fill-level prediction, overflow risk detection, and</text>
+      <text x="0" y="48" font-family="'Times New Roman', Times, serif" font-size="15" font-weight="400" fill="#4A5568">optimized waste collection routing using XGBoost,...</text>
+    </g>
+    <g transform="translate(0, 168)">
+      <text x="0" y="0" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="500" fill="#4A5568">TypeScript</text>
+      <text x="496" y="0" font-family="'Times New Roman', Times, serif" font-size="14" font-weight="500" fill="#4A5568" text-anchor="end">★ 1   Updated Jul 2026</text>
+    </g>
+  </g>
+</svg>

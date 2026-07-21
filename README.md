@@ -129,6 +129,15 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/EcoBin-Smart-Waste-Management-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ecobin-smart-waste-management-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ecobin-smart-waste-management-system-light.svg">
+  <img alt="EcoBin-Smart-Waste-Management-System - Engineering project" src="./assets/projects/project-ecobin-smart-waste-management-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/HandMatrix">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
@@ -137,6 +146,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Smart-cart-os">
 <picture>
@@ -146,8 +157,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Biometric-Voting-System">
 <picture>
@@ -157,18 +166,10 @@
 </picture>
 </a>
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg">
-  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg" width="100%">
-</picture>
-</a>
-</td>
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
