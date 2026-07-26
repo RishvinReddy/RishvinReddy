@@ -14,16 +14,22 @@
       "dark": "project-ai-security-guardian-dark.svg"
     },
     {
+      "repository": "mbox-viewer",
+      "slug": "mbox-viewer",
+      "light": "project-mbox-viewer-light.svg",
+      "dark": "project-mbox-viewer-dark.svg"
+    },
+    {
+      "repository": "Rishvin-Labs",
+      "slug": "rishvin-labs",
+      "light": "project-rishvin-labs-light.svg",
+      "dark": "project-rishvin-labs-dark.svg"
+    },
+    {
       "repository": "n8n-ai-github-code-to-linkedin-publisher",
       "slug": "n8n-ai-github-code-to-linkedin-publisher",
       "light": "project-n8n-ai-github-code-to-linkedin-publisher-light.svg",
       "dark": "project-n8n-ai-github-code-to-linkedin-publisher-dark.svg"
-    },
-    {
-      "repository": "rishvin-labs",
-      "slug": "rishvin-labs",
-      "light": "project-rishvin-labs-light.svg",
-      "dark": "project-rishvin-labs-dark.svg"
     },
     {
       "repository": "EcoBin-Smart-Waste-Management-System",
@@ -42,12 +48,6 @@
       "slug": "smart-cart-os",
       "light": "project-smart-cart-os-light.svg",
       "dark": "project-smart-cart-os-dark.svg"
-    },
-    {
-      "repository": "Biometric-Voting-System",
-      "slug": "biometric-voting-system",
-      "light": "project-biometric-voting-system-light.svg",
-      "dark": "project-biometric-voting-system-dark.svg"
     }
   ]
 }
