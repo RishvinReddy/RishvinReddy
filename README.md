@@ -109,15 +109,6 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/mbox-viewer">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-mbox-viewer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-mbox-viewer-light.svg">
-  <img alt="mbox-viewer - Engineering project" src="./assets/projects/project-mbox-viewer-light.svg" width="100%">
-</picture>
-</a>
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Rishvin-Labs">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg">
@@ -126,8 +117,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/n8n-ai-github-code-to-linkedin-publisher">
 <picture>
@@ -137,12 +126,23 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/EcoBin-Smart-Waste-Management-System">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ecobin-smart-waste-management-system-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ecobin-smart-waste-management-system-light.svg">
   <img alt="EcoBin-Smart-Waste-Management-System - Engineering project" src="./assets/projects/project-ecobin-smart-waste-management-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/mbox-viewer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-mbox-viewer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-mbox-viewer-light.svg">
+  <img alt="mbox-viewer - Engineering project" src="./assets/projects/project-mbox-viewer-light.svg" width="100%">
 </picture>
 </a>
 </td>
@@ -169,6 +169,7 @@
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
