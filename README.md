@@ -109,11 +109,31 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-face-mesh-verification-system-light.svg">
+  <img alt="Face-Mesh-Verification-System - Engineering project" src="./assets/projects/project-face-mesh-verification-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Rishvin-Labs">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-labs-light.svg">
   <img alt="Rishvin-Labs - Engineering project" src="./assets/projects/project-rishvin-labs-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/BioShield-MFA">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-bioshield-mfa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-bioshield-mfa-light.svg">
+  <img alt="BioShield-MFA - Engineering project" src="./assets/projects/project-bioshield-mfa-light.svg" width="100%">
 </picture>
 </a>
 </td>
@@ -147,28 +167,9 @@
 </a>
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/HandMatrix">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg">
-  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg" width="100%">
-</picture>
-</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/Smart-cart-os">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-smart-cart-os-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-smart-cart-os-light.svg">
-  <img alt="Smart-cart-os - Engineering project" src="./assets/projects/project-smart-cart-os-light.svg" width="100%">
-</picture>
-</a>
-</td>
-</tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 

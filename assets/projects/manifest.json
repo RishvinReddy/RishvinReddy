@@ -14,10 +14,22 @@
       "dark": "project-ai-security-guardian-dark.svg"
     },
     {
+      "repository": "Face-Mesh-Verification-System",
+      "slug": "face-mesh-verification-system",
+      "light": "project-face-mesh-verification-system-light.svg",
+      "dark": "project-face-mesh-verification-system-dark.svg"
+    },
+    {
       "repository": "Rishvin-Labs",
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
       "dark": "project-rishvin-labs-dark.svg"
+    },
+    {
+      "repository": "BioShield-MFA",
+      "slug": "bioshield-mfa",
+      "light": "project-bioshield-mfa-light.svg",
+      "dark": "project-bioshield-mfa-dark.svg"
     },
     {
       "repository": "n8n-ai-github-code-to-linkedin-publisher",
@@ -36,18 +48,6 @@
       "slug": "mbox-viewer",
       "light": "project-mbox-viewer-light.svg",
       "dark": "project-mbox-viewer-dark.svg"
-    },
-    {
-      "repository": "HandMatrix",
-      "slug": "handmatrix",
-      "light": "project-handmatrix-light.svg",
-      "dark": "project-handmatrix-dark.svg"
-    },
-    {
-      "repository": "Smart-cart-os",
-      "slug": "smart-cart-os",
-      "light": "project-smart-cart-os-light.svg",
-      "dark": "project-smart-cart-os-dark.svg"
     }
   ]
 }
