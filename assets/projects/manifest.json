@@ -14,6 +14,12 @@
       "dark": "project-ai-security-guardian-dark.svg"
     },
     {
+      "repository": "HandMatrix",
+      "slug": "handmatrix",
+      "light": "project-handmatrix-light.svg",
+      "dark": "project-handmatrix-dark.svg"
+    },
+    {
       "repository": "Face-Mesh-Verification-System",
       "slug": "face-mesh-verification-system",
       "light": "project-face-mesh-verification-system-light.svg",
@@ -42,12 +48,6 @@
       "slug": "ecobin-smart-waste-management-system",
       "light": "project-ecobin-smart-waste-management-system-light.svg",
       "dark": "project-ecobin-smart-waste-management-system-dark.svg"
-    },
-    {
-      "repository": "mbox-viewer",
-      "slug": "mbox-viewer",
-      "light": "project-mbox-viewer-light.svg",
-      "dark": "project-mbox-viewer-dark.svg"
     }
   ]
 }

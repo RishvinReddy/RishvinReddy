@@ -109,6 +109,15 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/HandMatrix">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-handmatrix-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-handmatrix-light.svg">
+  <img alt="HandMatrix - Engineering project" src="./assets/projects/project-handmatrix-light.svg" width="100%">
+</picture>
+</a>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-face-mesh-verification-system-dark.svg">
@@ -117,6 +126,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Rishvin-Labs">
 <picture>
@@ -126,8 +137,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/BioShield-MFA">
 <picture>
@@ -137,6 +146,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/n8n-ai-github-code-to-linkedin-publisher">
 <picture>
@@ -146,8 +157,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/EcoBin-Smart-Waste-Management-System">
 <picture>
@@ -157,18 +166,10 @@
 </picture>
 </a>
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/mbox-viewer">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-mbox-viewer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-mbox-viewer-light.svg">
-  <img alt="mbox-viewer - Engineering project" src="./assets/projects/project-mbox-viewer-light.svg" width="100%">
-</picture>
-</a>
-</td>
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
