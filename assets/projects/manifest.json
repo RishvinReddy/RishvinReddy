@@ -14,6 +14,12 @@
       "dark": "project-ai-security-guardian-dark.svg"
     },
     {
+      "repository": "mbox-viewer",
+      "slug": "mbox-viewer",
+      "light": "project-mbox-viewer-light.svg",
+      "dark": "project-mbox-viewer-dark.svg"
+    },
+    {
       "repository": "HandMatrix",
       "slug": "handmatrix",
       "light": "project-handmatrix-light.svg",
@@ -42,12 +48,6 @@
       "slug": "n8n-ai-github-code-to-linkedin-publisher",
       "light": "project-n8n-ai-github-code-to-linkedin-publisher-light.svg",
       "dark": "project-n8n-ai-github-code-to-linkedin-publisher-dark.svg"
-    },
-    {
-      "repository": "EcoBin-Smart-Waste-Management-System",
-      "slug": "ecobin-smart-waste-management-system",
-      "light": "project-ecobin-smart-waste-management-system-light.svg",
-      "dark": "project-ecobin-smart-waste-management-system-dark.svg"
     }
   ]
 }
