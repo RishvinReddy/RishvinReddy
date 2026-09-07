@@ -98,6 +98,17 @@
 </a>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/rishvin-reddy-portfolio">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-reddy-portfolio-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-rishvin-reddy-portfolio-light.svg">
+  <img alt="rishvin-reddy-portfolio - Engineering project" src="./assets/projects/project-rishvin-reddy-portfolio-light.svg" width="100%">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/AI-Security-Guardian">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg">
@@ -106,8 +117,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/mbox-viewer">
 <picture>
@@ -117,6 +126,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/HandMatrix">
 <picture>
@@ -126,8 +137,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
 <picture>
@@ -137,6 +146,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Gov-Payroll-System">
 <picture>
@@ -146,8 +157,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Rishvin-Labs">
 <picture>
@@ -157,18 +166,10 @@
 </picture>
 </a>
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/BioShield-MFA">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-bioshield-mfa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-bioshield-mfa-light.svg">
-  <img alt="BioShield-MFA - Engineering project" src="./assets/projects/project-bioshield-mfa-light.svg" width="100%">
-</picture>
-</a>
-</td>
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 

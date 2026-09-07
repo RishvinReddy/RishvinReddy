@@ -8,6 +8,12 @@
       "dark": "project-rishvinreddy-github-io-dark.svg"
     },
     {
+      "repository": "rishvin-reddy-portfolio",
+      "slug": "rishvin-reddy-portfolio",
+      "light": "project-rishvin-reddy-portfolio-light.svg",
+      "dark": "project-rishvin-reddy-portfolio-dark.svg"
+    },
+    {
       "repository": "AI-Security-Guardian",
       "slug": "ai-security-guardian",
       "light": "project-ai-security-guardian-light.svg",
@@ -42,12 +48,6 @@
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
       "dark": "project-rishvin-labs-dark.svg"
-    },
-    {
-      "repository": "BioShield-MFA",
-      "slug": "bioshield-mfa",
-      "light": "project-bioshield-mfa-light.svg",
-      "dark": "project-bioshield-mfa-dark.svg"
     }
   ]
 }
