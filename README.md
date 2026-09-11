@@ -149,15 +149,6 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/Gov-Payroll-System">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-gov-payroll-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-gov-payroll-system-light.svg">
-  <img alt="Gov-Payroll-System - Engineering project" src="./assets/projects/project-gov-payroll-system-light.svg" width="100%">
-</picture>
-</a>
-</td>
-<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Rishvin-Labs">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-rishvin-labs-dark.svg">
@@ -166,9 +157,19 @@
 </picture>
 </a>
 </td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Gov-Payroll-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-gov-payroll-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-gov-payroll-system-light.svg">
+  <img alt="Gov-Payroll-System - Engineering project" src="./assets/projects/project-gov-payroll-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 

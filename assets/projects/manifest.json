@@ -38,16 +38,16 @@
       "dark": "project-face-mesh-verification-system-dark.svg"
     },
     {
-      "repository": "Gov-Payroll-System",
-      "slug": "gov-payroll-system",
-      "light": "project-gov-payroll-system-light.svg",
-      "dark": "project-gov-payroll-system-dark.svg"
-    },
-    {
       "repository": "Rishvin-Labs",
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
       "dark": "project-rishvin-labs-dark.svg"
+    },
+    {
+      "repository": "Gov-Payroll-System",
+      "slug": "gov-payroll-system",
+      "light": "project-gov-payroll-system-light.svg",
+      "dark": "project-gov-payroll-system-dark.svg"
     }
   ]
 }
