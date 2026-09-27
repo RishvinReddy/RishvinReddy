@@ -20,12 +20,6 @@
       "dark": "project-rishvin-reddy-portfolio-dark.svg"
     },
     {
-      "repository": "AI-Security-Guardian",
-      "slug": "ai-security-guardian",
-      "light": "project-ai-security-guardian-light.svg",
-      "dark": "project-ai-security-guardian-dark.svg"
-    },
-    {
       "repository": "mbox-viewer",
       "slug": "mbox-viewer",
       "light": "project-mbox-viewer-light.svg",
@@ -48,6 +42,12 @@
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
       "dark": "project-rishvin-labs-dark.svg"
+    },
+    {
+      "repository": "Gov-Payroll-System",
+      "slug": "gov-payroll-system",
+      "light": "project-gov-payroll-system-light.svg",
+      "dark": "project-gov-payroll-system-dark.svg"
     }
   ]
 }

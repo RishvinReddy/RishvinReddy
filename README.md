@@ -118,17 +118,6 @@
 </a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/RishvinReddy/AI-Security-Guardian">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-ai-security-guardian-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-ai-security-guardian-light.svg">
-  <img alt="AI-Security-Guardian - Engineering project" src="./assets/projects/project-ai-security-guardian-light.svg" width="100%">
-</picture>
-</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/mbox-viewer">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-mbox-viewer-dark.svg">
@@ -137,6 +126,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/HandMatrix">
 <picture>
@@ -146,8 +137,6 @@
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Face-Mesh-Verification-System">
 <picture>
@@ -157,6 +146,8 @@
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/RishvinReddy/Rishvin-Labs">
 <picture>
@@ -166,9 +157,19 @@
 </picture>
 </a>
 </td>
+<td width="50%" valign="top">
+<a href="https://github.com/RishvinReddy/Gov-Payroll-System">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/project-gov-payroll-system-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects/project-gov-payroll-system-light.svg">
+  <img alt="Gov-Payroll-System - Engineering project" src="./assets/projects/project-gov-payroll-system-light.svg" width="100%">
+</picture>
+</a>
+</td>
 </tr>
 </table>
 <!-- STARRED_REPOS_END -->
+
 
 
 
