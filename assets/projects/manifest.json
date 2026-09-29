@@ -32,12 +32,6 @@
       "dark": "project-handmatrix-dark.svg"
     },
     {
-      "repository": "Face-Mesh-Verification-System",
-      "slug": "face-mesh-verification-system",
-      "light": "project-face-mesh-verification-system-light.svg",
-      "dark": "project-face-mesh-verification-system-dark.svg"
-    },
-    {
       "repository": "Rishvin-Labs",
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
@@ -48,6 +42,12 @@
       "slug": "gov-payroll-system",
       "light": "project-gov-payroll-system-light.svg",
       "dark": "project-gov-payroll-system-dark.svg"
+    },
+    {
+      "repository": "AI-Security-Guardian",
+      "slug": "ai-security-guardian",
+      "light": "project-ai-security-guardian-light.svg",
+      "dark": "project-ai-security-guardian-dark.svg"
     }
   ]
 }
