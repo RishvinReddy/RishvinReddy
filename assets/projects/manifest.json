@@ -26,12 +26,6 @@
       "dark": "project-mbox-viewer-dark.svg"
     },
     {
-      "repository": "HandMatrix",
-      "slug": "handmatrix",
-      "light": "project-handmatrix-light.svg",
-      "dark": "project-handmatrix-dark.svg"
-    },
-    {
       "repository": "Rishvin-Labs",
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
@@ -48,6 +42,12 @@
       "slug": "ai-security-guardian",
       "light": "project-ai-security-guardian-light.svg",
       "dark": "project-ai-security-guardian-dark.svg"
+    },
+    {
+      "repository": "HandMatrix",
+      "slug": "handmatrix",
+      "light": "project-handmatrix-light.svg",
+      "dark": "project-handmatrix-dark.svg"
     }
   ]
 }
