@@ -20,12 +20,6 @@
       "dark": "project-rishvin-reddy-portfolio-dark.svg"
     },
     {
-      "repository": "mbox-viewer",
-      "slug": "mbox-viewer",
-      "light": "project-mbox-viewer-light.svg",
-      "dark": "project-mbox-viewer-dark.svg"
-    },
-    {
       "repository": "Rishvin-Labs",
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
@@ -42,6 +36,12 @@
       "slug": "ai-security-guardian",
       "light": "project-ai-security-guardian-light.svg",
       "dark": "project-ai-security-guardian-dark.svg"
+    },
+    {
+      "repository": "mbox-viewer",
+      "slug": "mbox-viewer",
+      "light": "project-mbox-viewer-light.svg",
+      "dark": "project-mbox-viewer-dark.svg"
     },
     {
       "repository": "HandMatrix",
