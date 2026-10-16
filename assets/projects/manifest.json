@@ -8,6 +8,12 @@
       "dark": "project-rishvinreddy-github-io-dark.svg"
     },
     {
+      "repository": "EcoBin-Smart-Waste-Management-System",
+      "slug": "ecobin-smart-waste-management-system",
+      "light": "project-ecobin-smart-waste-management-system-light.svg",
+      "dark": "project-ecobin-smart-waste-management-system-dark.svg"
+    },
+    {
       "repository": "rishvin-reddy-portfolio",
       "slug": "rishvin-reddy-portfolio",
       "light": "project-rishvin-reddy-portfolio-light.svg",
@@ -42,12 +48,6 @@
       "slug": "rishvin-labs",
       "light": "project-rishvin-labs-light.svg",
       "dark": "project-rishvin-labs-dark.svg"
-    },
-    {
-      "repository": "Gov-Payroll-System",
-      "slug": "gov-payroll-system",
-      "light": "project-gov-payroll-system-light.svg",
-      "dark": "project-gov-payroll-system-dark.svg"
     }
   ]
 }
